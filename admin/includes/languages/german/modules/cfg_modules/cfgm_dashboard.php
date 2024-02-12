@@ -10,5 +10,4 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_CFG_MODULE_DASHBOARD_TITLE', 'Dashboard');
-
+const MODULE_CFG_MODULE_DASHBOARD_TITLE = 'Dashboard';

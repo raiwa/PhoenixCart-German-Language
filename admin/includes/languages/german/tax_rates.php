@@ -15,7 +15,7 @@ const HEADING_TITLE = 'Steuersätze';
 const TABLE_HEADING_TAX_RATE_PRIORITY = 'Priorität';
 const TABLE_HEADING_TAX_CLASS_TITLE = 'Steuerklasse';
 const TABLE_HEADING_COUNTRIES_NAME = 'Land';
-const TABLE_HEADING_ZONE = 'Steuerzone';
+const TABLE_HEADING_ZONE = 'Zone';
 const TABLE_HEADING_TAX_RATE = 'Steuersatz';
 const TABLE_HEADING_ACTION = 'Aktion';
 

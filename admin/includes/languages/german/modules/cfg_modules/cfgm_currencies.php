@@ -10,5 +10,4 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_CFG_MODULE_CURRENCIES_TITLE', 'Währungen Aktualisieren');
-
+const MODULE_CFG_MODULE_CURRENCIES_TITLE = 'Währungen Aktualisieren';

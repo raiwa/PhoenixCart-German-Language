@@ -22,7 +22,7 @@ const VERSION_SERVER_FAILURE = 'Konnte die verfügbaren Versionen nicht vom Serv
 const VERSION_RUNNING_LATEST = 'Sie verwenden die aktuelle Version von CE Phoenix.';
 const VERSION_UPGRADES_AVAILABLE = <<<'EOT'
 <strong>CE Phoenix %s</strong> ist die aktuellste Version für Sie!<hr>
-<a class="alert-link" target="_blank" href="https://phoenixcart.org/forum/viewtopic.php?f=26&t=309">Zertifizierte Entwickler</a>
+<a class="alert-link" target="_blank" href="https://phoenixcart.org/forum/viewforum.php?f=22">Zertifizierte Partner</a>
  und detaillierte "<a class="alert-link" target="_blank" href="https://phoenixcart.org/forum/app.php/tag/phoenix-update">Do-It-Yourself-</a>"
 Anweisungen gibt es im Phoenix Club.
 EOT;

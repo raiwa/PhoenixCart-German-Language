@@ -10,26 +10,25 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Datenbanktabellen');
+const HEADING_TITLE = 'Datenbanktabellen';
 
-define('TABLE_HEADING_TABLE', 'Tabelle');
-define('TABLE_HEADING_ROWS', 'Spalte');
-define('TABLE_HEADING_SIZE', 'Grösse');
-define('TABLE_HEADING_ENGINE', 'Motor');
-define('TABLE_HEADING_COLLATION', 'Kollation');
-define('TABLE_HEADING_MSG_TYPE', 'Nachrichten-Typ');
-define('TABLE_HEADING_MSG', 'Nachricht');
-define('TABLE_HEADING_QUERIES', 'Abfragen');
+const TABLE_HEADING_TABLE = 'Tabelle';
+const TABLE_HEADING_ROWS = 'Spalte';
+const TABLE_HEADING_SIZE = 'Grösse';
+const TABLE_HEADING_ENGINE = 'Motor';
+const TABLE_HEADING_COLLATION = 'Kollation';
+const TABLE_HEADING_MSG_TYPE = 'Nachrichten-Typ';
+const TABLE_HEADING_MSG = 'Nachricht';
+const TABLE_HEADING_QUERIES = 'Abfragen';
 
-define('ACTION_CHECK_TABLES', 'Check Tabellen');
-define('ACTION_ANALYZE_TABLES', 'Analysiere Tabellen');
-define('ACTION_OPTIMIZE_TABLES', 'Optimiere Tabellen');
-define('ACTION_REPAIR_TABLES', 'Repariere Tabellen');
-define('ACTION_UTF8_CONVERSION', 'Nach UTF8 konvertieren');
+const ACTION_CHECK_TABLES = 'Check Tabellen';
+const ACTION_ANALYZE_TABLES = 'Analysiere Tabellen';
+const ACTION_OPTIMIZE_TABLES = 'Optimiere Tabellen';
+const ACTION_REPAIR_TABLES = 'Repariere Tabellen';
+const ACTION_UTF8_CONVERSION = 'Nach UTF8 konvertieren';
 
-define('ACTION_UTF8_CONVERSION_FROM_AUTODETECT', 'Automatische Erkennung');
-define('ACTION_UTF8_CONVERSION_FROM', 'von %s');
-define('ACTION_UTF8_DRY_RUN', 'Nur Abfragen anzeigen? %s&nbsp;');
+const ACTION_UTF8_CONVERSION_FROM_AUTODETECT = 'Automatische Erkennung';
+const ACTION_UTF8_CONVERSION_FROM = 'von %s';
+const ACTION_UTF8_DRY_RUN = 'Nur Abfragen anzeigen? %s&nbsp;';
 
-define('BUTTON_ACTION_GO', 'GO');
-
+const BUTTON_ACTION_GO = 'GO';

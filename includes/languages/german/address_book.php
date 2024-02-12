@@ -2,25 +2,25 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2021 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Ihr Konto');
-define('NAVBAR_TITLE_2', 'Adressbuch');
+const NAVBAR_TITLE_1 = 'Ihr Konto';
+const NAVBAR_TITLE_2 = 'Adressbuch';
 
-define('HEADING_TITLE', 'Mein Persönliches Adressbuch');
+const HEADING_TITLE = 'Mein Persönliches Adressbuch';
 
-define('PRIMARY_ADDRESS_TITLE', 'Standardadresse');
-define('PRIMARY_ADDRESS_DESCRIPTION', 'Diese Adresse wird automatisch als Liefer- und Rechnungsadresse gewählt wenn Sie eine Bestellung aufgeben.<br><br>Diese Adresse wird auch als Basis für die Berechnung eventueller Steuern und Versandkosten verwendet.');
+const PRIMARY_ADDRESS_TITLE = 'Standardadresse';
+const PRIMARY_ADDRESS_DESCRIPTION = 'Diese Adresse wird automatisch als Liefer- und Rechnungsadresse gewählt wenn Sie eine Bestellung aufgeben.<br><br>Diese Adresse wird auch als Basis für die Berechnung eventueller Steuern und Versandkosten verwendet.';
 
-define('ADDRESS_BOOK_TITLE', 'Adressbucheinträge');
+const ADDRESS_BOOK_TITLE = 'Adressbucheinträge';
 
-define('PRIMARY_ADDRESS', '(Standardadresse)');
+const PRIMARY_ADDRESS = '(Standardadresse)';
 
-define('TEXT_MAXIMUM_ENTRIES', '<span class="text-danger">Hinweis:</span> Ihnen stehen %s Adressbucheinträge zur Verfügung.');
+const TEXT_MAXIMUM_ENTRIES = '<span class="text-danger">Hinweis:</span> Ihnen stehen %s Adressbucheinträge zur Verfügung.';
 

@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-  define('MODULES_ADMIN_MENU_CONFIGURATION_STORE_LOGO', 'Logo vom Shop');
+  const MODULES_ADMIN_MENU_CONFIGURATION_STORE_LOGO = 'Logo vom Shop';

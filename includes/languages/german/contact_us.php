@@ -2,24 +2,24 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce
+  Copyright (c) 2022 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Kontakt');
-define('NAVBAR_TITLE', 'Kontakt');
-define('TEXT_SUCCESS', 'Ihre Anfrage wurde erfolgreich an den Vertrieb gesendet.');
-define('EMAIL_SUBJECT', 'Anfrage von %s');
+const HEADING_TITLE = 'Kontakt';
+const NAVBAR_TITLE = 'Kontakt';
+const TEXT_SUCCESS = 'Ihre Anfrage wurde erfolgreich an den Vertrieb gesendet.';
+const EMAIL_SUBJECT = 'Anfrage von %s';
 
-define('ENTRY_NAME', 'Name');
-define('ENTRY_NAME_TEXT', '');
-define('ENTRY_EMAIL', 'eMail-Adresse');
-define('ENTRY_EMAIL_TEXT', '');
-define('ENTRY_ENQUIRY', 'Anfrage');
-define('ENTRY_ENQUIRY_TEXT', '');
+const ENTRY_NAME = 'Name';
+const ENTRY_NAME_TEXT = '';
+const ENTRY_EMAIL = 'eMail-Adresse';
+const ENTRY_EMAIL_TEXT = '';
+const ENTRY_ENQUIRY = 'Anfrage';
+const ENTRY_ENQUIRY_TEXT = '';
 
-define('ERROR_ACTION_RECORDER', 'Fehler: Es wurde bereits eine Anfrage gesendet. Versuchen Sie es in %s Minuten noch einmal.');
+const ERROR_ACTION_RECORDER = 'Fehler: Es wurde bereits eine Anfrage gesendet. Versuchen Sie es in %s Minuten noch einmal.';

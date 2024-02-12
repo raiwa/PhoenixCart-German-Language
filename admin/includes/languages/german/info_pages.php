@@ -48,3 +48,5 @@ const SORT_ORDER = 'Sortierung';
 const TABLE_HEADING_SORT_ORDER = 'Sortierung';
 
 const MISSING_SLUGS_ERROR = 'Erforderliche URL fehlen:  <b>%s</b><hr>Diese URL sind erforderlich, um bestimmte Funktionen Ihrer Website zu betreiben.';
+
+const TEXT_PAGE_SLUG_HELP = 'Slug *muss* einzigartig sein';

@@ -10,6 +10,5 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_HEADER_TAGS_DATEPICKER_JQUERY_TITLE', 'Datepicker jQuery');
-  define('MODULE_HEADER_TAGS_DATEPICKER_JQUERY_DESCRIPTION', 'Datepicker jQuery zu bestimmten Seiten hinzufügen');
-
+  const MODULE_HEADER_TAGS_DATEPICKER_JQUERY_TITLE = 'Datepicker jQuery';
+  const MODULE_HEADER_TAGS_DATEPICKER_JQUERY_DESCRIPTION = 'Datepicker jQuery zu bestimmten Seiten hinzufügen';

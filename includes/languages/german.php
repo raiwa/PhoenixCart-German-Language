@@ -44,7 +44,7 @@ const CHECKOUT_BAR_PAYMENT = 'Zahlungsweise';
 const CHECKOUT_BAR_CONFIRMATION = 'Bestätigung';
 
 // pull down default text
-const PULL_DOWN_DEFAULT = 'Bitte wählen';
+const PULL_DOWN_DEFAULT = '--- Bitte wählen ---';
 
 // javascript messages
 const JS_ERROR = 'Notwendige Angaben fehlen!\nBitte richtig ausfüllen.\n\n';
@@ -105,3 +105,5 @@ const PAYMENT_FA_ICON = '<i class="fas fa-file-invoice-dollar fa-fw fa-3x float-
 
 const ENTRY_COMMENTS = 'Wollen Sie uns etwas mitteilen?';
 const ENTRY_COMMENTS_PLACEHOLDER = 'Kommentar einfügen...';
+
+const STAR_RATING = 'Mit %s Sternen bewertet';
