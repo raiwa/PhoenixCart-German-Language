@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-  const MODULE_PAYMENT_COD_TEXT_TITLE = 'Cash on Delivery';
-  const MODULE_PAYMENT_COD_TEXT_DESCRIPTION = 'Cash on Delivery';
+  const MODULE_PAYMENT_COD_TEXT_TITLE = 'Nachnahme';
+  const MODULE_PAYMENT_COD_TEXT_DESCRIPTION = 'Nachnahme';

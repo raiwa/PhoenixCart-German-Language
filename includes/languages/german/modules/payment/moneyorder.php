@@ -10,17 +10,17 @@
   Released under the GNU General Public License
 */
 
-const MODULE_PAYMENT_MONEYORDER_TEXT_TITLE = 'Check/Money Order';
-const MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION = 'Require an offline payment before shipping order.';
-const MODULE_PAYMENT_MONEYORDER_TEXT_CONFIRMATION = 'Make Payable To:&nbsp;%1$s<br><br>Send To:<br>%2$s<br>%3$s<br><br>Your order will not ship until we receive payment.';
-const MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER = <<<'EOT'
-Make Payable To: %1$s
+  const MODULE_PAYMENT_MONEYORDER_TEXT_TITLE = 'Scheck/Überweisung';
+  const MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION = 'Verlangen Sie eine Offline-Zahlung vor dem Versand der Bestellung.';
+  const MODULE_PAYMENT_MONEYORDER_TEXT_CONFIRMATION = 'Zahlbar an:&nbsp;%1$s<br><br>Senden an:<br>%2$s<br>%3$s<br><br>Ihre Bestellung wird erst versendet, wenn wir die Zahlung erhalten haben.';
+  const MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER = <<<'EOT'
+Zahlbar an: %1$s
 
-Send To:
+Senden an:
 %2$s
 %3$s
 
-Your order will not ship until we receive payment.
+Ihre Bestellung wird erst versendet, wenn wir die Zahlung erhalten haben.
 EOT;
 
-const MODULE_PAYMENT_MONEYORDER_WARNING_SETUP = "Please ensure you set up the 'Make Payable to' parameter.";
+  const MODULE_PAYMENT_MONEYORDER_WARNING_SETUP = "Bitte stellen Sie sicher, dass Sie den Parameter 'Zahlbar an' definiert haben.";
