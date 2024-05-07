@@ -14,6 +14,7 @@ const HEADING_TITLE = 'Länder';
 
 const TABLE_HEADING_COUNTRY_NAME = 'Land';
 const TABLE_HEADING_COUNTRY_CODES = 'ISO Codes';
+const TABLE_HEADING_STATUS = 'Status';
 const TABLE_HEADING_ACTION = 'Aktion';
 
 const TEXT_INFO_EDIT_INTRO = 'Bitte führen Sie alle notwendigen Änderungen durch';
@@ -26,3 +27,5 @@ const TEXT_INFO_DELETE_INTRO = 'Sind Sie sicher, dass Sie das Land löschen möc
 const TEXT_INFO_HEADING_NEW_COUNTRY = 'Neues Land';
 const TEXT_INFO_HEADING_EDIT_COUNTRY = 'Land bearbeiten';
 const TEXT_INFO_HEADING_DELETE_COUNTRY = 'Land löschen';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Countries';

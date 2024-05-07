@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-  define('MODULES_ADMIN_MENU_TAXES_TAX_CLASSES', 'Steuerklassen');
+  const MODULES_ADMIN_MENU_TAXES_TAX_CLASSES = 'Steuerklassen';

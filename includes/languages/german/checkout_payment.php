@@ -2,23 +2,23 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2020 osCommerce
+  Copyright (c) 2022 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Kasse');
-define('NAVBAR_TITLE_2', 'Zahlungsart');
+const NAVBAR_TITLE_1 = 'Kasse';
+const NAVBAR_TITLE_2 = 'Zahlungsart';
 
-define('HEADING_TITLE', 'Zahlungsart');
+const HEADING_TITLE = 'Zahlungsart';
 
-define('TABLE_HEADING_BILLING_ADDRESS', 'Rechnungsadresse');
+const TABLE_HEADING_BILLING_ADDRESS = 'Rechnungsadresse';
 
-define('TABLE_HEADING_PAYMENT_METHOD', 'Zahlungsart');
+const TABLE_HEADING_PAYMENT_METHOD = 'Zahlungsart';
 
-define('TEXT_ENTER_PAYMENT_INFORMATION', 'Zur Zeit bieten wir Ihnen nur eine Zahlungsart an.');
+const TEXT_ENTER_PAYMENT_INFORMATION = 'Zur Zeit bieten wir Ihnen nur eine Zahlungsart an.';
 
-define('BUTTON_CONTINUE_CHECKOUT_PROCEDURE', 'Weiter');
+const BUTTON_CONTINUE_CHECKOUT_PROCEDURE = 'Weiter';

@@ -10,10 +10,10 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_CONTENT_HEADER_BUTTONS_TITLE', 'Buttons');
-  define('MODULE_CONTENT_HEADER_BUTTONS_DESCRIPTION', 'Adds Login/Checkout Buttons into the Header Area of your site.');
+  const MODULE_CONTENT_HEADER_BUTTONS_TITLE = 'Buttons';
+  const MODULE_CONTENT_HEADER_BUTTONS_DESCRIPTION = 'Adds Login/Checkout Buttons into the Header Area of your site.';
   
-  define('MODULE_CONTENT_HEADER_BUTTONS_TITLE_CART_CONTENTS', 'Warenkob');
-  define('MODULE_CONTENT_HEADER_BUTTONS_TITLE_CHECKOUT', 'Kasse');
-  define('MODULE_CONTENT_HEADER_BUTTONS_TITLE_LOGOFF', 'Ausloggen');  
-  define('MODULE_CONTENT_HEADER_BUTTONS_TITLE_MY_ACCOUNT', 'Mein Account');
+  const MODULE_CONTENT_HEADER_BUTTONS_TITLE_CART_CONTENTS = 'Warenkob';
+  const MODULE_CONTENT_HEADER_BUTTONS_TITLE_CHECKOUT = 'Kasse';
+  const MODULE_CONTENT_HEADER_BUTTONS_TITLE_LOGOFF = 'Ausloggen';  
+  const MODULE_CONTENT_HEADER_BUTTONS_TITLE_MY_ACCOUNT = 'Mein Account';

@@ -10,6 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Datenschutz');
-define('HEADING_TITLE', 'Was wir über Sie wissen...');
+const NAVBAR_TITLE_1 = 'Mein Konto';
+const NAVBAR_TITLE_2 = 'Datenschutz';
 
+const HEADING_TITLE = 'Was wir über Sie wissen...';

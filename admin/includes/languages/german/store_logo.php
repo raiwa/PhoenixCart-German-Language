@@ -10,12 +10,12 @@
   Released under the GNU General Public License
 */
 
-const HEADING_TITLE = 'Derzeitiges Logo';
+const HEADING_TITLE = 'Shop Logo';
 
 const HEADING_NEW_LOGO = 'Neues Logo hochladen';
 
 const TEXT_LOGO_IMAGE = 'Neues Logo';
-const TEXT_FORMAT_AND_LOCATION = 'Das Shop-Logo muss im png/gif/jpg/svg/webp-Format vorliegen und ÜBERSCHREIBT das bestehende Logo';
+const TEXT_FORMAT_AND_LOCATION = '<b>Ihr vorhandenes Logo wird ÜBERSCHRIEBEN.</b><br><br>Das neue Shop-Logo muss in einem Standardbildformat vorliegen: png/gif/jpg/svg/webp';
 
 const SUCCESS_LOGO_UPDATED = '<strong>Erfolg:</strong> Das Shop-Logo wurde erfolgreich aktualisiert!';
 

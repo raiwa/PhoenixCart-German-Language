@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_HEADER_TAGS_PRODUCT_META_TITLE', 'Produkt SEO');
-  define('MODULE_HEADER_TAGS_PRODUCT_META_DESCRIPTION', 'Fügt die beim Einrichten des Produkts definierten SEO-Meta-Elemente zur Kopfzeile der Produktseite hinzu');
+  const MODULE_HEADER_TAGS_PRODUCT_META_TITLE = 'Produkt SEO';
+  const MODULE_HEADER_TAGS_PRODUCT_META_DESCRIPTION = 'Fügt die beim Einrichten des Produkts definierten SEO-Meta-Elemente zur Kopfzeile der Produktseite hinzu';

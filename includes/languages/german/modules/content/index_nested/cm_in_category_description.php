@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_CONTENT_IN_CATEGORY_DESCRIPTION_TITLE', 'Kategorie Beschreibung');
-  define('MODULE_CONTENT_IN_CATEGORY_DESCRIPTION_DESCRIPTION', 'Zeigt die Kategorien Beschreibung auf der index.php Seite');
+  const MODULE_CONTENT_IN_CATEGORY_DESCRIPTION_TITLE = 'Kategorie Beschreibung';
+  const MODULE_CONTENT_IN_CATEGORY_DESCRIPTION_DESCRIPTION = 'Zeigt die Kategorien Beschreibung auf der index.php Seite';

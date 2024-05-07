@@ -21,7 +21,7 @@ const TEXT_EDIT_NOTE = <<<'EORT'
 
 <p>Jede Sprachdefinition wird wie folgt als PHP-Konstante festgelegt:</p>
 
-<p><pre>const TEXT_MAIN = '<span style="background-color: #FFFF99;">Dieser Text kann bearbeitet werden. Es ist wirklich einfach!</span>');</pre></p>
+<p><pre>const TEXT_MAIN = '<span style="background-color: #FFFF99;">Dieser Text kann bearbeitet werden. Es ist wirklich einfach!</span>';</pre></p>
 
 <p>Der markierte Text kann bearbeitet werden. Da diese Definition einfache Anführungszeichen verwendet, um den Text einzuschliessen, müssen alle einfachen Anführungszeichen innerhalb der Textdefinition mit einem umgekehrten Schrägstrich versehen werden (z. B. It\'s).</p>
 
@@ -39,3 +39,5 @@ const TEXT_FILE_DOES_NOT_EXIST = 'Datei nicht vorhanden.';
 const TEXT_INFO_DOWNLOAD_ONLY = 'Nur Download (nicht serverseitig speichern)';
 
 const ERROR_FILE_NOT_WRITEABLE = '<strong>Error:</strong> Die Datei ist schreibgeschützt. Bitte korrigieren Sie die Zugriffsrechte für: %s';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Define_Languages';

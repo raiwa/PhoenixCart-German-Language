@@ -10,9 +10,8 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_HEADER_TAGS_PAGES_SEO_TITLE', 'SEO - Seiten');
-  define('MODULE_HEADER_TAGS_PAGES_SEO_DESCRIPTION', 'Fügt beim Bearbeiten der Seiten definierte SEO-Element (z. B.: specials.php) zum Header der Seite hinzu');
+  const MODULE_HEADER_TAGS_PAGES_SEO_TITLE = 'SEO - Seiten';
+  const MODULE_HEADER_TAGS_PAGES_SEO_DESCRIPTION = 'Fügt beim Bearbeiten der Seiten definierte SEO-Element (z. B.: specials.php) zum Header der Seite hinzu';
 
-  define('MODULE_HEADER_TAGS_PAGES_SEO_HELPER', 'SEO-Elemente müssen für jede Seite zu Ihren Sprachdateien hinzufügt werden.');
-  define('MODULE_HEADER_TAGS_PAGES_SEO_SEPARATOR', ' | ');
-
+  const MODULE_HEADER_TAGS_PAGES_SEO_HELPER = 'SEO-Elemente müssen für jede Seite zu Ihren Sprachdateien hinzufügt werden.';
+  const MODULE_HEADER_TAGS_PAGES_SEO_SEPARATOR = ' | ';

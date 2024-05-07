@@ -2,18 +2,17 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2021 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Ihr Konto');
-define('NAVBAR_TITLE_2', 'Ihre persönliche Daten ändern');
+const NAVBAR_TITLE_1 = 'Ihr Konto';
+const NAVBAR_TITLE_2 = 'Ihre persönliche Daten ändern';
 
-define('HEADING_TITLE', 'Ihre persönliche Daten ändern');
+const HEADING_TITLE = 'Ihre persönliche Daten ändern';
 
-define('SUCCESS_ACCOUNT_UPDATED', 'Ihre Daten wurden erfolgreich aktualisiert!');
-
+const SUCCESS_ACCOUNT_UPDATED = 'Ihre Daten wurden erfolgreich aktualisiert!';

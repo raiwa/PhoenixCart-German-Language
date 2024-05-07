@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-const HEADING_TITLE = 'Seiten-Manager';
+const HEADING_TITLE = 'Info Seiten';
 
 const TABLE_HEADING_PAGE_ID = 'ID';
 const TABLE_HEADING_PAGE_TITLE = 'Seiten-Titel';
@@ -48,3 +48,7 @@ const SORT_ORDER = 'Sortierung';
 const TABLE_HEADING_SORT_ORDER = 'Sortierung';
 
 const MISSING_SLUGS_ERROR = 'Erforderliche URL fehlen:  <b>%s</b><hr>Diese URL sind erforderlich, um bestimmte Funktionen Ihrer Website zu betreiben.';
+
+const TEXT_PAGE_SLUG_HELP = 'Slug *muss* einzigartig sein';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Info_Pages';

@@ -17,3 +17,5 @@ const ENTRY_STATE = 'Bundesland/Provinz';
 const ENTRY_STATE_ERROR = 'Der Eintrag für das Bundesland muss mindestens %d Zeichen aufweisen';
 const ENTRY_STATE_ERROR_SELECT = 'Bitte wählen Sie ein Bundesland aus';
 const ENTRY_STATE_TEXT = '';
+
+const ENTRY_STATE_SELECT_ONE = '--- Bitte wählen ---';

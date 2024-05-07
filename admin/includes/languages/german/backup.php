@@ -51,3 +51,5 @@ const SUCCESS_DATABASE_RESTORED = '<strong>Erfolg:</strong> Die Datenbank wurde 
 const SUCCESS_BACKUP_DELETED = '<strong>Erfolg:</strong> Die Sicherungsdatei wurde gelöscht.';
 
 const TEXT_INFO_BACKUP_SIZE = '%s MB';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Database_Backup';

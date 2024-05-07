@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_ADMIN_DASHBOARD_TOTAL_REVENUE_TITLE', 'Umsatz-Statistik');
-define('MODULE_ADMIN_DASHBOARD_TOTAL_REVENUE_DESCRIPTION', 'Zeige den Umsatz-Chart der letzten X Tage');
+const MODULE_ADMIN_DASHBOARD_TOTAL_REVENUE_TITLE = 'Umsatz-Tagesstatistik';
+const MODULE_ADMIN_DASHBOARD_TOTAL_REVENUE_DESCRIPTION = 'Zeige die Umsatz-Tagesstatistik der letzten X Tage';
 
-define('MODULE_ADMIN_DASHBOARD_TOTAL_REVENUE_CHART_LINK', 'Umsatz');
+const MODULE_ADMIN_DASHBOARD_TOTAL_REVENUE_CHART_LINK = 'Umsatz';

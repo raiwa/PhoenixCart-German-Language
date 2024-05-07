@@ -2,10 +2,10 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2020 osCommerce CE Phoenix
+  Copyright (c) 2021 Phoenix Cart
 
   Released under the GNU General Public License
 */
@@ -57,12 +57,7 @@ const TEXT_CLOSE_WINDOW = '<u>Fenster schliessen</u> [x]';
 const TEXT_NO_PRODUCTS = 'Es wurden keine Produkte gefunden, die den Suchkriterien entsprechen.';
 
 const ERROR_AT_LEAST_ONE_INPUT = 'Wenigstens ein Feld des Suchformulars muss ausgefüllt werden.';
-const ERROR_INVALID_FROM_DATE = 'Unzulässiges <b>von</b> Datum';
-const ERROR_INVALID_TO_DATE = 'Unzulässiges <b>bis jetzt</b> Datum';
-const ERROR_TO_DATE_LESS_THAN_FROM_DATE = 'Das Datum <b>von</b> muss größer oder gleich dem <b>bis jetzt</b> Datum sein';
 const ERROR_PRICE_FROM_MUST_BE_NUM = '<b>Preis ab</b> muss eine Zahl sein';
 const ERROR_PRICE_TO_MUST_BE_NUM = '<b>Preis bis</b> muss eine Zahl sein';
 const ERROR_PRICE_TO_LESS_THAN_PRICE_FROM = '<b>Preis bis</b> muss größer oder gleich <b>Preis ab</b> sein.';
 const ERROR_INVALID_KEYWORDS = 'Suchbegriff unzulässig';
-
-const DATE_FORMAT_STRING = 'dd.mm.yyyy';

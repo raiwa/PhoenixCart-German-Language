@@ -73,7 +73,7 @@ const TEXT_SORT_ORDER = 'Sortierreihenfolge';
 
 const TEXT_PRODUCTS_STATUS = 'Produktstatus';
 const TEXT_PRODUCTS_DATE_AVAILABLE = 'Erscheinungsdatum';
-const TEXT_PRODUCTS_DATE_AVAILABLE_HELP = 'DD.MM.YYYY';
+const TEXT_PRODUCTS_DATE_AVAILABLE_HELP = '';
 const TEXT_PRODUCT_AVAILABLE = 'auf Lager';
 const TEXT_PRODUCT_NOT_AVAILABLE = 'nicht vorrätig';
 const TEXT_PRODUCTS_MANUFACTURER = 'Artikel-Hersteller';
@@ -122,3 +122,5 @@ const TEXT_CATEGORIES_SEO_TITLE = 'Kategoriename für SEO:<br><small>Ersetzt den
 const TEXT_EDIT_CATEGORIES_SEO_TITLE = 'Kategoriename für SEO bearbeiten:<br><small>Ersetzt den Kategoriename im &lt;title&gt;-Meta-Element<br>und optional im Breadcrumb.<br>Bei Nichtangabe wird der normale Kategoriename verwendet.</small>';
 
 const TEXT_PRODUCTS_OTHER_IMAGES = 'Galleriebilder';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Categories/Products';

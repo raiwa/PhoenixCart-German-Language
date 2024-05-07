@@ -64,6 +64,7 @@ const ENTRY_PRINTABLE = 'Rechnung drucken';
 const TEXT_INFO_HEADING_DELETE_ORDER = 'Bestellung löschen';
 const TEXT_INFO_DELETE_INTRO = 'Sind Sie sicher, das Sie diese Bestellung löschen möchten?';
 const TEXT_INFO_RESTOCK_PRODUCT_QUANTITY = 'Artikelanzahl dem Lager gutschreiben';
+const TEXT_INFO_REACTIVATE_PRODUCT_STATUS = 'Produkte reaktivieren';
 const TEXT_DATE_ORDER_CREATED = 'Erstellt am: %s';
 const TEXT_DATE_ORDER_LAST_MODIFIED = 'Letzte Änderung: %s';
 const TEXT_INFO_PAYMENT_METHOD = 'Zahlungsweise: %s';
@@ -82,3 +83,5 @@ const ENTRY_NOTIFY_COMMENTS_TEXT = 'Kommentare zur Bestellung und E-Mail ergänz
 
 const TEXT_ORDER_STATUS = '<strong>%s</strong> [%s]';
 const TEXT_ORDER_PAYMENT = '<strong>%s</strong> [%s]';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Orders';

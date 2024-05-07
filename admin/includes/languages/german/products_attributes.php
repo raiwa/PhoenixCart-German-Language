@@ -36,3 +36,6 @@ const TEXT_OPTION_NAME = 'Optionsname';
 const PLEASE_SELECT_OPTION = '--- Bitte auswählen ---';
 
 const TABLE_HEADING_OPT_SORT_ORDER = 'Reihenfolge';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Products_Attributes';
+const GET_ADDONS_LINKS = [ADDONS_FREE => 'https://phoenixcart.org/forum/app.php/addons/free_addon/ajax_attribute_manager/',];

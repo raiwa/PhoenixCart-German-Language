@@ -10,11 +10,11 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Sonderangebote');
-define('HEADING_TITLE', 'Schnell zuschlagen, so lange der Vorrat reicht!');
+const NAVBAR_TITLE = 'Sonderangebote';
+const HEADING_TITLE = 'Schnell zuschlagen, so lange der Vorrat reicht!';
 
-define('TEXT_NO_PRODUCTS', 'Derzeit gibt es keine Sonderangebote');
+const TEXT_NO_PRODUCTS = 'Derzeit gibt es keine Sonderangebote';
 
 // seo
-define('META_SEO_TITLE', 'Special Offers Page');
-define('META_SEO_DESCRIPTION', 'Specials Description');
+const META_SEO_TITLE = 'Special Offers Page';
+const META_SEO_DESCRIPTION = 'Specials Description';

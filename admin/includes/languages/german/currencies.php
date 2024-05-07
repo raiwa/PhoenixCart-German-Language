@@ -42,3 +42,5 @@ const ERROR_CURRENCY_INVALID = '<strong>Error:</strong> Die Verbrauchssteuer fü
 const WARNING_PRIMARY_SERVER_FAILED = '<strong>Warnung:</strong> Der primäre Server (%s) scheiterte bei %s (%s) - teste sekundären Server.';
 
 const ERROR_INSTALL_CURRENCY_CONVERTER = 'Derzeit ist kein Währungsumrechner installiert.  <a class="alert-link font-weight-bold" href="%s">Jetzt installieren</a>';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Currencies';

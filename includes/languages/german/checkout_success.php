@@ -2,15 +2,15 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2022 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE_1', 'Kasse');
-define('NAVBAR_TITLE_2', 'Erfolg');
+const NAVBAR_TITLE_1 = 'Kasse';
+const NAVBAR_TITLE_2 = 'Erfolg';
 
-define('TABLE_HEADING_COMMENTS', 'Tragen Sie eine Anmerkung für die Bestellung ein');
+const TABLE_HEADING_COMMENTS = 'Tragen Sie eine Anmerkung für die Bestellung ein';
