@@ -38,6 +38,8 @@ const TEXT_BACKUP_DIRECTORY = 'Backup Verzeichnis:<br>%s';
 const TEXT_LAST_RESTORATION = 'Letzte Wiederherstellung:<br>%s';
 const TEXT_FORGET = 'Abbrechen';
 
+const PHP_DATE_TIME_FORMAT = 'd/m/Y H:i:s'; // this is used for date()
+
 const ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST = '<strong>Fehler:</strong> Das Sicherungsverzeichnis ist nicht vorhanden. Bitte stellen Sie dies in der configure.php ein.';
 const ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE = '<strong>Fehler:</strong> Das Sicherungsverzeichnis ist schreibgeschützt.';
 const ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE = '<strong>Fehler:</strong> Download Link nicht akzeptabel.';

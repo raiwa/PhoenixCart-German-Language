@@ -71,6 +71,7 @@ const TEXT_INFO_PAYMENT_METHOD = 'Zahlungsweise: %s';
 
 const TEXT_ALL_ORDERS = 'Alle Bestellungen';
 const TEXT_NO_ORDER_HISTORY = 'Keine Bestellhistorie verfügbar';
+const TEXT_NO_DELIVERY_ADDRESS = 'Keine Lieferaddresse verfügbar';
 
 const ERROR_ORDER_DOES_NOT_EXIST = '<strong>Error:</strong> Die Bestellung existiert nicht!.';
 const SUCCESS_ORDER_UPDATED = '<strong>Erfolg:</strong> Die Bestellung wurde erfolgreich aktualisiert.';

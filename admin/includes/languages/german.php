@@ -17,11 +17,10 @@
 // 'en_AU.UTF-8', 'en_AU.UTF8', 'ena_au'
 
 setlocale(LC_ALL, ['de_DE.UTF8', 'de_DE.UTF-8', 'deu_deu' ]);
-const DATE_FORMAT_SHORT = '%d/%m/%Y';  // this is used for strftime()
-const DATE_FORMAT_LONG = '%A %d %B, %Y'; // this is used for strftime()
-const DATE_FORMAT = 'd/m/Y'; // this is used for date()
-const PHP_DATE_TIME_FORMAT = 'd/m/Y H:i:s'; // this is used for date()
-const DATE_TIME_FORMAT = DATE_FORMAT_SHORT . ' %H:%M:%S';
+
+$long_date_formatter = new IntlDateFormatter('de', IntlDateFormatter::FULL, IntlDateFormatter::NONE);
+$short_date_formatter = new IntlDateFormatter('de', IntlDateFormatter::SHORT, IntlDateFormatter::NONE);
+$date_time_formatter = new IntlDateFormatter('de', IntlDateFormatter::SHORT, IntlDateFormatter::LONG);
 
 // Global entries for the <html> tag
 const HTML_PARAMS ='dir="ltr" lang="de"';
