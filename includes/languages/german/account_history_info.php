@@ -35,6 +35,8 @@ const HEADING_ORDER_HISTORY = 'Bestellhistorie';
 const HEADING_COMMENT = 'Kommentar';
 const TEXT_NO_COMMENTS_AVAILABLE = 'Kein Kommentar vorhanden.';
 
-const TABLE_HEADING_DOWNLOAD_DATE = 'Herunterladen möglich bis:';
-const TABLE_HEADING_DOWNLOAD_COUNT = 'Max. Anz. Downloads';
-const HEADING_DOWNLOAD = 'Produkte herunterladen:';
+const TABLE_HEADING_DOWNLOAD_PRODUCT = 'Produkt';
+const TABLE_HEADING_DOWNLOAD_FILE = 'Datei';
+const TABLE_HEADING_DOWNLOAD_DATE = 'Herunterladen möglich bis';
+const TABLE_HEADING_DOWNLOAD_COUNT = 'Verbleibende Downloads';
+const HEADING_DOWNLOAD = 'Laden Sie Ihre Produkte hier herunter...';

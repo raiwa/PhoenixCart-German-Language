@@ -86,6 +86,7 @@ const TEXT_PRODUCTS_MAIN_IMAGE = 'Artikelhauptbild';
 const TEXT_PRODUCTS_LARGE_IMAGE = 'großes Artikelbild';
 const TEXT_PRODUCTS_LARGE_IMAGE_HTML_CONTENT = 'Bildbeschreibung';
 const TEXT_PRODUCTS_ADD_LARGE_IMAGE = '<i class="fas fa-plus mr-2"></i>weiteres Galleriebbild';
+const TEXT_PRODUCTS_DELETE_LARGE_IMAGES = '<i class="fas fa-trash mr-2"></i>Alle löschen</a>';
 const TEXT_PRODUCTS_URL = 'Herstellerlink';
 const TEXT_PRODUCTS_URL_WITHOUT_HTTP = 'ohne führendes http:// oder https://';
 const TEXT_PRODUCTS_PRICE_NET = 'Artikelpreis (Netto)';
