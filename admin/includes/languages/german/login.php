@@ -15,7 +15,7 @@ const HEADING_TITLE = '<i class="fa fa-lock"></i> Administrator Login';
 const TEXT_USERNAME = 'Benutzername';
 const TEXT_PASSWORD = 'Passwort';
 
-const TEXT_CREATE_FIRST_ADMINISTRATOR = '<div class="card-body"><div class="alert alert-danger card-text"> Es existieren keine Administratoren in der Datenbanktabelle. Nutzen Sie bitte dieses Formular um den ersten Administrator zu erstellen. <br><strong>Ein Login ist danach nötig.</strong></div></div>';
+const TEXT_CREATE_FIRST_ADMINISTRATOR = 'Es existieren keine Administratoren in der Datenbanktabelle. Nutzen Sie bitte dieses Formular um den ersten Administrator zu erstellen.<br><strong>Ein Login ist danach nötig.</strong>';
 
 const ERROR_INVALID_ADMINISTRATOR = '<strong>Error:</strong> Unzulässiger Administrator-Login-Versuch.';
 

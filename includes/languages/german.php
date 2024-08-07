@@ -22,13 +22,15 @@ $long_date_formatter = new IntlDateFormatter('de', IntlDateFormatter::FULL, Intl
 $short_date_formatter = new IntlDateFormatter('de', IntlDateFormatter::SHORT, IntlDateFormatter::NONE);
 $date_time_formatter = new IntlDateFormatter('de', IntlDateFormatter::SHORT, IntlDateFormatter::LONG);
 
+const DATE_FORMAT = 'd/m/Y'; // this is used for date()
+
 // if USE_DEFAULT_LANGUAGE_CURRENCY is true, use the following currency, instead of the applications default currency (used when changing language)
 const LANGUAGE_CURRENCY = 'EUR';
 
 // Global entries for the <html> tag
 const HTML_PARAMS = ' dir="ltr" lang="de"';
 
-// charset for web pages and emails
+// charset for web pages and e-mails
 const CHARSET = 'utf-8';
 
 // page title
@@ -44,11 +46,6 @@ const CHECKOUT_BAR_CONFIRMATION = 'Bestätigung';
 
 // pull down default text
 const PULL_DOWN_DEFAULT = '--- Bitte wählen ---';
-
-// javascript messages
-const JS_ERROR = 'Notwendige Angaben fehlen!\nBitte richtig ausfüllen.\n\n';
-
-const JS_ERROR_NO_PAYMENT_MODULE_SELECTED = '* Bitte wählen Sie eine Zahlungsweise für Ihre Bestellung.\n';
 
 const ERROR_NO_PAYMENT_MODULE_SELECTED = 'Bitte wählen Sie eine Zahlungsweise für Ihre Bestellung.';
 

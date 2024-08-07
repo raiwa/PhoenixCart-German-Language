@@ -27,7 +27,7 @@ const HEADING_PAYMENT_METHOD = 'Zahlungsweise';
 const HEADING_PAYMENT_INFORMATION = 'Zahlungsinformationen';
 const HEADING_ORDER_COMMENTS = 'Anmerkung zu Ihrer Bestellung';
 
-const IMAGE_BUTTON_FINALISE_ORDER = 'Jetzt zahlungspflichtig bestellen';
+const IMAGE_BUTTON_FINALISE_ORDER = 'Bestätigen und %s für meine Bestellung bezahlen';
 
 const HEADING_QTY = 'Menge';
 

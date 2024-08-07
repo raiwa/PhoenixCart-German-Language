@@ -18,3 +18,5 @@
 
   const MODULE_CONTENT_FOOTER_CONTACT_US_PHONE = '<i class="fas fa-phone fa-fw mr-1" title="Telefon"></i>';
   const MODULE_CONTENT_FOOTER_CONTACT_US_EMAIL = '<i class="fas fa-at fa-fw mr-1" title="E-Mail"></i>';
+
+  const MODULE_CONTENT_FOOTER_CONTACT_US_TAX_ID = 'USt. Nr.: %s';

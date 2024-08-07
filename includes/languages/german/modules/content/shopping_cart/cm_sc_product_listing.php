@@ -30,5 +30,5 @@
   const MODULE_CONTENT_SC_PRODUCT_LISTING_HEADING_PRICE = 'Preis';
 
   const MODULE_CONTENT_SC_PRODUCT_LISTING_TEXT_BUTTON_UPDATE = '<i title="Update" class="fas fa-sync fa-fw"></i>';
-  const MODULE_CONTENT_SC_PRODUCT_LISTING_TEXT_BUTTON_REMOVE = '<i title="Entfernen" class="fas fa-times fa-fw"></i>';
+  const MODULE_CONTENT_SC_PRODUCT_LISTING_TEXT_BUTTON_REMOVE = '<i title="Entfernen" class="text-danger fas fa-trash fa-fw"></i>';
   const MODULE_CONTENT_SC_PRODUCT_LISTING_TEXT_IN_STOCK = '<i class="fas fa-check fa text-success"></i>';

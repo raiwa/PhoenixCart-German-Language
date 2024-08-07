@@ -19,3 +19,5 @@ const ENTRY_MATC_TEXT = 'Klicken Sie auf die Box zum Akzeptieren des Widerrufrec
 
 // for the modal popup
 const MATC_BUTTON_CLOSE = 'Schließen';
+
+const ENTRY_MATC_ERROR = 'Sie müssen unseren Geschäftsbedingungen zustimmen, um unsere Website weiterhin nutzen zu können.';

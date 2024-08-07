@@ -24,12 +24,13 @@
 const MODULE_CONTENT_SC_STOCK_NOTICE_TITLE = 'Hinweis: Nicht auf Lager';
 const MODULE_CONTENT_SC_STOCK_NOTICE_DESCRIPTION = 'Zeigt den Hinweis: Nicht auf Lager im Warenkorb.';
   
-const MODULE_CONTENT_SC_STOCK_NOTICE_CANT_CHECKOUT = '<p class="lead">Die mit ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . <<<'EOT'
- markierten Produkte, sind leider nicht in der von Ihnen gewünschten Menge auf Lager.</p>
+const MODULE_CONTENT_SC_STOCK_NOTICE_CANT_CHECKOUT = '<p><b>Die mit <span class="align-middle">' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . <<<'EOT'
+</span> markierten Produkte, sind leider nicht in der von Ihnen gewünschten Menge auf Lager.</b></p>
 <p>Bitte reduzieren Sie Ihre Bestellmenge für die gekennzeichneten Produkte, 
 EOT
 . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ', vielen Dank.</p>';
-const MODULE_CONTENT_SC_STOCK_NOTICE_CAN_CHECKOUT = '<p class="lead">Die mit ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . <<<'EOT'
- markierten Produkte, sind leider nicht in der von Ihnen gewünschten Menge auf Lager.</p>
+
+const MODULE_CONTENT_SC_STOCK_NOTICE_CAN_CHECKOUT = '<p><b>Die mit <span class="align-middle">' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . <<<'EOT'
+</span> markierten Produkte, sind leider nicht in der von Ihnen gewünschten Menge auf Lager.</b></p>
 <p>Sie können sie trotzdem kaufen. Wir versenden sofort, was vorrätig ist, und die restliche Menge später nachsenden.</p>
 EOT;

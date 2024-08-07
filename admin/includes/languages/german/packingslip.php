@@ -10,6 +10,8 @@
   Released under the GNU General Public License
 */
 
+const HEADING_TITLE = 'Lieferschein';
+
 const TABLE_HEADING_COMMENTS = 'Kommentare';
 const TABLE_HEADING_PRODUCTS_MODEL = 'Modell';
 const TABLE_HEADING_PRODUCTS = 'Produkte';

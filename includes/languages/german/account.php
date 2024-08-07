@@ -22,7 +22,7 @@ const MY_ACCOUNT_ADDRESS_BOOK = 'Adressbuch';
 const MY_ACCOUNT_PASSWORD = 'Passwort ändern';
 
 const MY_ORDERS_TITLE = 'Bestellungen';
-const MY_ORDERS_VIEW = 'bisherige Bestellungen';
+const MY_ORDERS_VIEW = 'Bisherige Bestellungen';
 
 const EMAIL_NOTIFICATIONS_TITLE = 'E-Mail Benachrichtigungen';
 const EMAIL_NOTIFICATIONS_NEWSLETTERS = 'Newsletter';
