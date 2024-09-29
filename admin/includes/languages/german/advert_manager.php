@@ -29,7 +29,7 @@ const TEXT_ADVERT_IMAGE_LOCAL = 'ODER geben Sie einen lokalen Dateinamen an';
 const TEXT_ADVERT_IMAGE_TARGET = 'Ins Verzeichnis speichern';
 const TEXT_ADVERT_HTML_TEXT = 'HTML Text';
 
-const TEXT_ADVERT_TITLE_HELP = 'Dies wird nur für die Liste der Werbungen als Erinnerung für Sie benötigt.';
+const TEXT_ADVERT_TITLE_HELP = 'Dies wird in der Liste der Werbungen (Admin-Seite) als Erinnerung für Sie und als Bild-ALT-Text (Shop-Seite) verwendet.';
 const TEXT_ADVERT_URL_HELP = 'Fügen Sie https:// für externe Links ein, oder nur den Name für interne links (z.B. product_info.php oder advanced_search_result.php)';
 const TEXT_ADVERT_FRAGMENT_HELP = 'Wird nur in Verbindung mit intenen Links im Shop benutzt. Fragment-URL steht für (z.B.) products_id=3 oder keywords=xyz';
 const TEXT_ADVERT_SORT_HELP = 'Dies legt die Werbungssortierung innerhalb der Gruppe fest.';

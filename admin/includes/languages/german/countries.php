@@ -29,3 +29,5 @@ const TEXT_INFO_HEADING_EDIT_COUNTRY = 'Land bearbeiten';
 const TEXT_INFO_HEADING_DELETE_COUNTRY = 'Land löschen';
 
 const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Countries';
+
+const HEADING_TITLE_SEARCH = 'Suche';
