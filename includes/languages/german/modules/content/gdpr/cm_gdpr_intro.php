@@ -11,6 +11,6 @@
 */
 
   const MODULE_CONTENT_GDPR_INTRO_TITLE = 'DSGVO - Einleitung';
-  const MODULE_CONTENT_GDPR_INTRO_DESCRIPTION = 'Hier kann die DSGVO beschrieben werden...';
+  const MODULE_CONTENT_GDPR_INTRO_DESCRIPTION = 'Erklären Sie den Kunden den Zugriff auf Kontodaten und das Recht auf Datenlöschung.';
 
-  const MODULE_CONTENT_GDPR_INTRO_PUBLIC_TEXT = '<p>Die Datenschutz-Grundverordnung (DSGVO) ist eine Verordnung der Europäischen Union, mit der die Regeln zur Verarbeitung personenbezogener Daten durch private Unternehmen und öffentliche Stellen EU-weit vereinheitlicht werden. Dadurch soll einerseits der Schutz personenbezogener Daten innerhalb der Europäischen Union sichergestellt, andererseits der freie Datenverkehr innerhalb des Europäischen Binnenmarktes gewährleistet werden.</p>';
+  const MODULE_CONTENT_GDPR_INTRO_PUBLIC_TEXT = '<p><strong>Vollständiger Zugriff auf alle Ihre Kontendaten an einem Ort.</strong></p><p>Sehen Sie alle persönlichen Daten, die wir in Verbindung mit Ihrem Konto haben, einschließlich der Interaktionen mit unserer Website. Wir verpflichten uns zur Transparenz und zum Schutz Ihrer Privatsphäre, indem wir Ihnen die volle Kontrolle über Ihre Informationen geben. Sie können Ihre persönlichen Daten, die wir gespeichert haben, über <a class="alert-link" href="%s">Mein Konto hier löschen</a> löschen.</p>';

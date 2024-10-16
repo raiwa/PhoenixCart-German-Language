@@ -11,6 +11,6 @@
 */
 
 const NAVBAR_TITLE_1 = 'Mein Konto';
-const NAVBAR_TITLE_2 = 'Datenschutz';
+const NAVBAR_TITLE_2 = 'Datenübersicht';
 
-const HEADING_TITLE = 'Was wir über Sie wissen...';
+const HEADING_TITLE = 'Datenübersicht meines Kontos';

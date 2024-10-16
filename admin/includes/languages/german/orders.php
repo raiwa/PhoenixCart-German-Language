@@ -80,7 +80,7 @@ const WARNING_ORDER_NOT_UPDATED = '<strong>Warnung:</strong> Es wurde nichts ge�
 const ENTRY_ADD_COMMENT = 'Kommentar hinzufügen:';
 
 const ENTRY_NOTIFY_CUSTOMER_TEXT = 'Kunde benachrichtigen, dass Bestellung aktualisiert wurde';
-const ENTRY_NOTIFY_COMMENTS_TEXT = 'Kommentare zur Bestellung und E-Mail ergänzen';
+const ENTRY_NOTIFY_COMMENTS_TEXT = 'Dies fügt Ihre Kommentare zur Kundenbenachrichtigungs-E-Mail hinzu.';
 
 const TEXT_ORDER_STATUS = '<strong>%s</strong> [%s]';
 const TEXT_ORDER_PAYMENT = '<strong>%s</strong> [%s]';
