@@ -11,4 +11,4 @@
 */
 
   const MODULE_CONTENT_CU_MODULAR_TITLE = '&pi; Modular Kontaktformular';
-  const MODULE_CONTENT_CU_MODULAR_DESCRIPTION = 'Jetzt können Sie Ihre Kontaktseite einfacher gestalten.<div class="alert alert-warning">Dieses Modul erfordert die Verwendung von &pi;-Untermodulen. Alle Slots, die keine Untermodule enthalten, werden nicht angezeigt!</div>';
+  const MODULE_CONTENT_CU_MODULAR_DESCRIPTION = 'Jetzt können Sie Ihre Kontaktseite einfacher gestalten.<div class="alert alert-warning">Dieses Modul erfordert die Verwendung von &pi;-Untermodulen. Slots, die keine Untermodule enthalten, werden nicht angezeigt!</div>';
