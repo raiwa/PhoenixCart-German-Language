@@ -54,6 +54,7 @@ const IMAGE_BUTTON_BACK = 'Zurück';
 const IMAGE_BUTTON_BUY_NOW = 'In den Warenkorb';
 const IMAGE_BUTTON_CHANGE_ADDRESS = 'Adresse ändern';
 const IMAGE_BUTTON_CHECKOUT = 'Kasse';
+const IMAGE_BUTTON_CLOSE = 'Schließen';
 const IMAGE_BUTTON_CONFIRM_ORDER = 'jetzt zahlungspflichtig bestellen';
 const IMAGE_BUTTON_CONTINUE = 'Weiter';
 const IMAGE_BUTTON_DELETE = 'Löschen';

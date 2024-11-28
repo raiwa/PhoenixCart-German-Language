@@ -27,7 +27,10 @@ const TEXT_OUTGOING_SLUG = 'Vorlagenname';
 const TEXT_OUTGOING_SLUG_TITLE = 'E-Mail-Titel';
 const TEXT_OUTGOING_SLUG_TEXT = 'E-Mail-Text';
 
-const MISSING_SLUGS = '<div class="alert alert-danger">Achtung: Diese Scheduler-Module existieren und MÜSSEN eine Vorlage dafür haben!<br><b>%s</b></div>';
+const MISSING_SLUGS = '<div class="alert alert-danger d-flex justify-content-between">\
+<span>Achtung: Diese Scheduler-Module existieren und MÜSSEN eine Vorlage dafür haben!<br><b>%s</b></span>\
+<span>%s</span>\
+</div>';
 
 const TEXT_HEADING_NEW_OUTGOING_EMAIL = 'Neue E-Mail-Vorlage hinzufügen';
 const TEXT_HEADING_EDIT_OUTGOING_EMAIL = 'E-Mail-Vorlage bearbeiten';

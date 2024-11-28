@@ -16,3 +16,5 @@
   const MODULE_CONTENT_HEADER_MENU_TOGGLER = 'Menü umschalten';
 
   const MODULE_CONTENT_HEADER_MENU_MANUFACTURER_DROPDOWN = 'Hersteller';
+
+  const MODULE_CONTENT_HEADER_MENU_MENU = 'Navigationsmenü';
