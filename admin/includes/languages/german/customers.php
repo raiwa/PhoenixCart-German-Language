@@ -32,6 +32,8 @@ const PLEASE_SELECT = 'Auswählen';
 
 const PULL_DOWN_DEFAULT = PLEASE_SELECT;
 
+const CUSTOMER_REVIEW_ANONYMIZED = 'Verifizierter Kunde';
+
 const ERROR_PAGE_HAS_UNMET_REQUIREMENT = <<<'EOT'
   Die Nutzerseite benötigt, dass folgende Nutzerdatenmodule installiert sind: 'sortable_name', 'name', 'email_address', 'country_id', und 'id' .  Es fehlt:
 EOT;

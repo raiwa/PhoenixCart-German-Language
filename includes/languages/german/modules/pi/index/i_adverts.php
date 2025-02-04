@@ -11,4 +11,4 @@
 */
 
   const I_ADVERTS_TITLE        = 'Anzeigen';
-  const I_ADVERTS_DESCRIPTION  = 'Side by Side Anzeigen.<div class="alert alert-info">Dies ist ein Untermodul zur Verwendung mit dem &Pi;-System, das mit dem Anzeigen-Manager verknüpft ist.</div>';
+  const I_ADVERTS_DESCRIPTION  = 'Side by Side Anzeigen.<div class="alert alert-danger mt-2">Der Werbeinhalt wird unter Werkzeuge > Anzeigen-Manager festgelegt.</div><div class="alert alert-info">Dies ist ein Untermodul für das &Pi;-System, das mit dem Anzeigen-Manager verknüpft ist.</div>';
