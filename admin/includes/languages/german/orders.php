@@ -15,9 +15,9 @@ const HEADING_TITLE_SEARCH = 'Bestell-Nr.:';
 const HEADING_TITLE_STATUS = 'Status:';
 const HEADING_TITLE_ORDER = 'Bestellung #%s';
 
-const TAB_TITLE_SUMMARY = '<i class="fas fa-info-circle fa-fw mr-1"></i>Zusammenfassung';
-const TAB_TITLE_PRODUCTS = '<i class="fas fa-box-open fa-fw mr-1"></i>Produkte';
-const TAB_TITLE_STATUS_HISTORY = '<i class="fas fa-history fa-fw mr-1"></i>bisheriger Status';
+const TAB_TITLE_SUMMARY = '<i class="fas fa-info-circle fa-fw me-1"></i>Zusammenfassung';
+const TAB_TITLE_PRODUCTS = '<i class="fas fa-box-open fa-fw me-1"></i>Produkte';
+const TAB_TITLE_STATUS_HISTORY = '<i class="fas fa-history fa-fw me-1"></i>bisheriger Status';
 
 const TABLE_HEADING_OID = 'Bestellung';
 const TABLE_HEADING_COMMENTS = 'Kommentar';
@@ -64,12 +64,14 @@ const ENTRY_PRINTABLE = 'Rechnung drucken';
 const TEXT_INFO_HEADING_DELETE_ORDER = 'Bestellung löschen';
 const TEXT_INFO_DELETE_INTRO = 'Sind Sie sicher, das Sie diese Bestellung löschen möchten?';
 const TEXT_INFO_RESTOCK_PRODUCT_QUANTITY = 'Artikelanzahl dem Lager gutschreiben';
+const TEXT_INFO_REACTIVATE_PRODUCT_STATUS = 'Produkte reaktivieren';
 const TEXT_DATE_ORDER_CREATED = 'Erstellt am: %s';
 const TEXT_DATE_ORDER_LAST_MODIFIED = 'Letzte Änderung: %s';
 const TEXT_INFO_PAYMENT_METHOD = 'Zahlungsweise: %s';
 
 const TEXT_ALL_ORDERS = 'Alle Bestellungen';
 const TEXT_NO_ORDER_HISTORY = 'Keine Bestellhistorie verfügbar';
+const TEXT_NO_DELIVERY_ADDRESS = 'Keine Lieferaddresse verfügbar';
 
 const ERROR_ORDER_DOES_NOT_EXIST = '<strong>Error:</strong> Die Bestellung existiert nicht!.';
 const SUCCESS_ORDER_UPDATED = '<strong>Erfolg:</strong> Die Bestellung wurde erfolgreich aktualisiert.';
@@ -78,7 +80,9 @@ const WARNING_ORDER_NOT_UPDATED = '<strong>Warnung:</strong> Es wurde nichts ge�
 const ENTRY_ADD_COMMENT = 'Kommentar hinzufügen:';
 
 const ENTRY_NOTIFY_CUSTOMER_TEXT = 'Kunde benachrichtigen, dass Bestellung aktualisiert wurde';
-const ENTRY_NOTIFY_COMMENTS_TEXT = 'Kommentare zur Bestellung und E-Mail ergänzen';
+const ENTRY_NOTIFY_COMMENTS_TEXT = 'Dies fügt Ihre Kommentare zur Kundenbenachrichtigungs-E-Mail hinzu.';
 
 const TEXT_ORDER_STATUS = '<strong>%s</strong> [%s]';
 const TEXT_ORDER_PAYMENT = '<strong>%s</strong> [%s]';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Orders';

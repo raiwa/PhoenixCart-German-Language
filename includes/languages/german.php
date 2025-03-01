@@ -18,10 +18,11 @@
 // 'en_AU.UTF-8', 'en_AU.UTF8', 'ena_au'
 @setlocale(LC_ALL, ['de_DE.UTF-8', 'de_DE.UTF8', 'deu_deu']);
 
-const DATE_FORMAT_SHORT = '%d/%m/%Y';  // this is used for strftime()
-const DATE_FORMAT_LONG = '%A, %d. %B %Y'; // this is used for strftime()
-const DATE_FORMAT = 'd.m.Y'; // this is used for date()
-const DATE_TIME_FORMAT = DATE_FORMAT_SHORT . ' %H:%M:%S';
+$long_date_formatter = new IntlDateFormatter('de', IntlDateFormatter::FULL, IntlDateFormatter::NONE);
+$short_date_formatter = new IntlDateFormatter('de', IntlDateFormatter::SHORT, IntlDateFormatter::NONE);
+$date_time_formatter = new IntlDateFormatter('de', IntlDateFormatter::SHORT, IntlDateFormatter::LONG);
+
+const DATE_FORMAT = 'd/m/Y'; // this is used for date()
 
 // if USE_DEFAULT_LANGUAGE_CURRENCY is true, use the following currency, instead of the applications default currency (used when changing language)
 const LANGUAGE_CURRENCY = 'EUR';
@@ -29,7 +30,7 @@ const LANGUAGE_CURRENCY = 'EUR';
 // Global entries for the <html> tag
 const HTML_PARAMS = ' dir="ltr" lang="de"';
 
-// charset for web pages and emails
+// charset for web pages and e-mails
 const CHARSET = 'utf-8';
 
 // page title
@@ -44,12 +45,7 @@ const CHECKOUT_BAR_PAYMENT = 'Zahlungsweise';
 const CHECKOUT_BAR_CONFIRMATION = 'Bestätigung';
 
 // pull down default text
-const PULL_DOWN_DEFAULT = 'Bitte wählen';
-
-// javascript messages
-const JS_ERROR = 'Notwendige Angaben fehlen!\nBitte richtig ausfüllen.\n\n';
-
-const JS_ERROR_NO_PAYMENT_MODULE_SELECTED = '* Bitte wählen Sie eine Zahlungsweise für Ihre Bestellung.\n';
+const PULL_DOWN_DEFAULT = '--- Bitte wählen ---';
 
 const ERROR_NO_PAYMENT_MODULE_SELECTED = 'Bitte wählen Sie eine Zahlungsweise für Ihre Bestellung.';
 
@@ -58,6 +54,7 @@ const IMAGE_BUTTON_BACK = 'Zurück';
 const IMAGE_BUTTON_BUY_NOW = 'In den Warenkorb';
 const IMAGE_BUTTON_CHANGE_ADDRESS = 'Adresse ändern';
 const IMAGE_BUTTON_CHECKOUT = 'Kasse';
+const IMAGE_BUTTON_CLOSE = 'Schließen';
 const IMAGE_BUTTON_CONFIRM_ORDER = 'jetzt zahlungspflichtig bestellen';
 const IMAGE_BUTTON_CONTINUE = 'Weiter';
 const IMAGE_BUTTON_DELETE = 'Löschen';
@@ -79,8 +76,8 @@ const TEXT_CCVAL_ERROR_UNKNOWN_CARD = 'The first four digits of the number enter
 const TEXT_SEARCH_PLACEHOLDER = 'Suche';
 
 // message for required inputs
-const FORM_REQUIRED_INFORMATION = '<i class="fas fa-asterisk text-danger"></i> benötigte Informationen';
-const FORM_REQUIRED_INPUT = '<span class="form-control-feedback text-danger"><i class="fas fa-asterisk"></i></span>';
+const FORM_REQUIRED_INFORMATION = '';
+const FORM_REQUIRED_INPUT = '';
 
 // product notifications
 const PRODUCT_SUBSCRIBED = '%s wurde zu Ihren beobachteten Artikeln hinzugefügt';
@@ -100,8 +97,19 @@ EOT;
 
 // for new style internal pages
 const LINK_TEXT_EDIT = '<small><a class="%s" href="%s">Bearbeiten</a></small>';
-const SHIPPING_FA_ICON = '<i class="fas fa-shipping-fast fa-fw fa-3x float-right text-black-50"></i>';
-const PAYMENT_FA_ICON = '<i class="fas fa-file-invoice-dollar fa-fw fa-3x float-right text-black-50"></i>';
+const SHIPPING_FA_ICON = '<i class="fas fa-shipping-fast fa-fw fa-3x float-end"></i>';
+const PAYMENT_FA_ICON = '<i class="fas fa-file-invoice-dollar fa-fw fa-3x float-end"></i>';
 
 const ENTRY_COMMENTS = 'Wollen Sie uns etwas mitteilen?';
 const ENTRY_COMMENTS_PLACEHOLDER = 'Kommentar einfügen...';
+
+const STAR_RATING = 'Mit %s Sternen bewertet';
+
+// added BS5 template
+const NAVBAR_ICON_CART_CONTENTS = '<span class="position-relative%2$s">
+  <i title="Warenkorb: %1$s Artikel in Ihrem Warenkorb" class="fas fa-shopping-cart fa-fw fa-xl"></i>
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary border">
+    <span class="cart-count">%1$s</span>
+  </span>
+</span>
+';

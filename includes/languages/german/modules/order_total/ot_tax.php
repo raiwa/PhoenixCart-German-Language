@@ -2,14 +2,13 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2022 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Steuern');
-  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Auftrags Steuern');
-
+  const MODULE_ORDER_TOTAL_TAX_TITLE = 'Steuern';
+  const MODULE_ORDER_TOTAL_TAX_DESCRIPTION = 'Auftrags Steuern';

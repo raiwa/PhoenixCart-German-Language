@@ -2,18 +2,20 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce
+  Copyright (c) 2021 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Sicherheitschecks');
+const HEADING_TITLE = 'Sicherheitschecks';
 
-define('TABLE_HEADING_TITLE', 'Überschrift');
-define('TABLE_HEADING_MODULE', 'Modul');
-define('TABLE_HEADING_INFO', 'Info');
+const TABLE_HEADING_TITLE = 'Überschrift';
+const TABLE_HEADING_MODULE = 'Modul';
+const TABLE_HEADING_INFO = 'Info';
 
-define('BUTTON_TEXT_RELOAD', 'Neu laden');
+const BUTTON_TEXT_RELOAD = 'Neu laden';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Security_Checks';

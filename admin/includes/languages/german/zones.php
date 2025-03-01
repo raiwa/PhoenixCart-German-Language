@@ -2,27 +2,29 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2021 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Bundesländer');
+const HEADING_TITLE = 'Bundesländer';
 
-define('TABLE_HEADING_COUNTRY_NAME', 'Land');
-define('TABLE_HEADING_ZONE_NAME', 'Bundesland');
-define('TABLE_HEADING_ZONE_CODE', 'Code');
-define('TABLE_HEADING_ACTION', 'Aktion');
+const TABLE_HEADING_COUNTRY_NAME = 'Land';
+const TABLE_HEADING_ZONE_NAME = 'Bundesland';
+const TABLE_HEADING_ZONE_CODE = 'Code';
+const TABLE_HEADING_ACTION = 'Aktion';
 
-define('TEXT_INFO_EDIT_INTRO', 'Bitte führen Sie alle notwendigen Änderungen durch');
-define('TEXT_INFO_ZONES_NAME', 'Name des Bundeslandes:');
-define('TEXT_INFO_ZONES_CODE', 'Code des Bundeslandes:');
-define('TEXT_INFO_COUNTRY_NAME', 'Land:');
-define('TEXT_INFO_INSERT_INTRO', 'Bitte geben Sie das neue Bundesland mit allen relevanten Daten ein');
-define('TEXT_INFO_DELETE_INTRO', 'Sind Sie sicher, dass Sie dieses Bundesland löschen wollen?');
-define('TEXT_INFO_HEADING_NEW_ZONE', 'Neues Bundesland');
-define('TEXT_INFO_HEADING_EDIT_ZONE', 'Bundesland bearbeiten');
-define('TEXT_INFO_HEADING_DELETE_ZONE', 'Bundesland löschen');
+const TEXT_INFO_EDIT_INTRO = 'Bitte führen Sie alle notwendigen Änderungen durch';
+const TEXT_INFO_ZONES_NAME = 'Name des Bundeslandes:';
+const TEXT_INFO_ZONES_CODE = 'Code des Bundeslandes:';
+const TEXT_INFO_COUNTRY_NAME = 'Land:';
+const TEXT_INFO_INSERT_INTRO = 'Bitte geben Sie das neue Bundesland mit allen relevanten Daten ein';
+const TEXT_INFO_DELETE_INTRO = 'Sind Sie sicher, dass Sie dieses Bundesland löschen wollen?';
+const TEXT_INFO_HEADING_NEW_ZONE = 'Neues Bundesland';
+const TEXT_INFO_HEADING_EDIT_ZONE = 'Bundesland bearbeiten';
+const TEXT_INFO_HEADING_DELETE_ZONE = 'Bundesland löschen';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Zones';

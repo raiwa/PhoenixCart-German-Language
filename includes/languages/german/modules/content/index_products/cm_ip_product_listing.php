@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_CONTENT_IP_PRODUCT_LISTING_TITLE', 'Produktliste für Kategorie / Hersteller');
-  define('MODULE_CONTENT_IP_PRODUCT_LISTING_DESCRIPTION', 'Zeigen Sie die Produktliste für Kategorie / Hersteller an.');
+  const MODULE_CONTENT_IP_PRODUCT_LISTING_TITLE = 'Produktliste für Kategorie / Hersteller';
+  const MODULE_CONTENT_IP_PRODUCT_LISTING_DESCRIPTION = 'Zeigen Sie die Produktliste für Kategorie / Hersteller an.';

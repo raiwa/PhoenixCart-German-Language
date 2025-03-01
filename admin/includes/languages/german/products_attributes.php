@@ -10,6 +10,8 @@
   Released under the GNU General Public License
 */
 
+const HEADING_TITLE = 'Artikelmerkmale';
+
 const HEADING_TITLE_OPT = 'Artikelmerkmale';
 const HEADING_TITLE_VAL = 'Optionswert';
 const HEADING_TITLE_ATRIB = 'Artikelmerkmale';
@@ -36,3 +38,6 @@ const TEXT_OPTION_NAME = 'Optionsname';
 const PLEASE_SELECT_OPTION = '--- Bitte auswählen ---';
 
 const TABLE_HEADING_OPT_SORT_ORDER = 'Reihenfolge';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Products_Attributes';
+const GET_ADDONS_LINKS = [ADDONS_FREE => 'https://phoenixcart.org/forum/app.php/addons/free_addon/ajax_attribute_manager/',];

@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  const MODULE_CONTENT_IN_CARD_PRODUCTS_TITLE       = 'Neue Produkte';
-  const MODULE_CONTENT_IN_CARD_PRODUCTS_DESCRIPTION = 'Zeigt das "Neue Produkte"-Modul auf der Startseite.';
+  const MODULE_CONTENT_IN_CARD_PRODUCTS_TITLE       = 'Neueste Produkte';
+  const MODULE_CONTENT_IN_CARD_PRODUCTS_DESCRIPTION = 'Zeigt das "Neueeste Produkte"-Modul auf der Startseite.';
   
-  const MODULE_CONTENT_IN_CARD_PRODUCTS_HEADING     = 'Neue Produkte im %s';
+  const MODULE_CONTENT_IN_CARD_PRODUCTS_HEADING     = 'Neueste Produkte im %s';

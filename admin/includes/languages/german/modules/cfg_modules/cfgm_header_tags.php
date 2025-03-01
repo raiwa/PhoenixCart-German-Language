@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_CFG_MODULE_HEADER_TAGS_TITLE', 'Header Tags');
+const MODULE_CFG_MODULE_HEADER_TAGS_TITLE = 'Header Tags';

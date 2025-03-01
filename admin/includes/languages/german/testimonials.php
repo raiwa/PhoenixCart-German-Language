@@ -42,3 +42,5 @@ const TEXT_DISPLAY_NUMBER_OF_TESTIMONIALS = 'Angezeigt werden <b>%s</b> bis <b>%
 const IMAGE_BUTTON_ADD_TESTIMONIAL = 'Rezension hinzufügen';
 
 const ENTRY_TESTIMONIAL_HTML_DISPLAYED = 'HTML wird innerhalb der Rezensionen angezeigt.';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Testimonials';

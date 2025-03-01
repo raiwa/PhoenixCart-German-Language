@@ -14,4 +14,3 @@ const MODULE_SECURITY_CHECK_EXTENDED_SHOPSIDE_PHOENIX_TITLE = 'Version - CE Phoe
 const MODULE_SECURITY_CHECK_EXTENDED_SHOPSIDE_PHOENIX_MESSAGE = <<<'EOT'
 Dieser Shop basiert auf CE Phoenix v%s, siehe <a href="%s"><u>Tools > Versions Checker</u></a> für weitere Informationen.
 EOT;
-

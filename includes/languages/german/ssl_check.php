@@ -14,10 +14,11 @@ const NAVBAR_TITLE = 'Sicherheitshinweis';
 const HEADING_TITLE = 'Sicherheitshinweis';
 
 const TEXT_INFORMATION = <<<'EOT'
-Die Sicherheitsüberprüfung hat ergeben, dass der Ihrerseits verwendete Browser die SSL-Session-Id während Ihres Besuches gewechselt hat.<br><br>
-Aus Sicherheitsgründen bitten wir Sie sich noch einmal anzumelden.<br><br>
-Manche Browser, z.B. Konqueror 3.1, können die  Secure SSL Session-Id nicht automatisch erzeugen - dies ist jedoch bei uns Voraussetzung. Wenn Sein einen solchen Browser verwenden, bitten wir Sie entweder eine aktualisierte Version zu installieren oder einen anderen Browser zu verwenden. Zum Beipiel  <a class="btn btn-light btn-sm" role="button" href="http://www.microsoft.com/ie/" target="_blank" rel="noreferrer">Microsoft Internet Explorer</a> oder <a class="btn btn-light btn-sm" role="button" href="http://www.mozilla.org/releases/" target="_blank" rel="noreferrer">Mozilla</a>. Nach diesem Update sollten sie problemlos bei uns einkaufen können, mit der Gewissheit auf der sicheren Seite zu sein.<br><br>
-Dies dient Ihrer Sicherheit. Sollten Sie trotzdem Probleme haben, bitten wir um Entschuldigung und bitten Sie, mit uns Kontakt aufzunehmen.
+Wir haben festgestellt, dass Ihr Browser eine andere SSL-Session-ID generiert hat, die auf unseren sicheren Seiten verwendet wird.<br><br>
+Aus Sicherheitsgründen müssen Sie sich erneut in Ihr Profil einloggen, um mit dem Einkauf fortzufahren.<br><br>
+Einige Browser können automatisch keine sichere SSL-Session-ID generieren. Wenn Sie einen solchen Browser verwenden, empfehlen wir, zu einem moderneren Browser wie <a href="https://www.microsoft.com/en-us/edge/download?form=MA13FJ" target="_blank" rel="noreferrer">Microsoft Edge</a>, <a href="https://support.google.com/chrome/answer/95346" target="_blank" rel="noreferrer">Google Chrome</a> oder <a href="https://www.mozilla.org/en-GB/firefox/" target="_blank" rel="noreferrer">Mozilla Firefox</a> zu wechseln, um unsere Seite weiterhin nutzen zu können.<br><br>
+Wir haben diese Sicherheitsmaßnahme zu Ihrem Nutzen getroffen und entschuldigen uns für etwaige Unannehmlichkeiten.<br><br>
+Bitte <a class="btn btn-success" role="button" href="%s">kontaktieren Sie uns</a>, wenn Sie Fragen zu diesem Anforderungen haben.
 EOT;
 
 const BOX_INFORMATION_HEADING = 'Privatsphäre und Sicherheit';

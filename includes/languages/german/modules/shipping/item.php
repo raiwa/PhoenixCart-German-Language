@@ -2,15 +2,14 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2022 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('MODULE_SHIPPING_ITEM_TEXT_TITLE', 'Pro Stück');
-define('MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION', 'Pro Stück');
-define('MODULE_SHIPPING_ITEM_TEXT_WAY', 'Versand');
-
+const MODULE_SHIPPING_ITEM_TEXT_TITLE = 'Pro Stück';
+const MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION = 'Pro Stück';
+const MODULE_SHIPPING_ITEM_TEXT_WAY = 'Versand';

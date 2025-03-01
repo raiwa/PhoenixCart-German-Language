@@ -44,3 +44,5 @@ const TEXT_INFO_DELETE_INTRO = 'Sind Sie sicher, dass Sie das Sonderangebot lös
 const BUTTON_INSERT_SPECIAL = 'Neues Sonderangebot erstellen';
 
 const WARNING_NO_PRODUCTS = 'Sie müssen ein Produkt hinzufügen, bevor Sie es als Sonderangebot einstellen können.';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Specials';
