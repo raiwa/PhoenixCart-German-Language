@@ -13,7 +13,7 @@
   const MODULE_CONTENT_TESTIMONIALS_WRITE_TITLE        = 'Rezension schreiben';
   const MODULE_CONTENT_TESTIMONIALS_WRITE_DESCRIPTION  = 'Ermöglichen Sie Kunden, eine Rezension zu schreiben.';
 
-  const MODULE_CONTENT_TESTIMONIALS_WRITE_BUTTON_TEXT = '<i class="fas fa-pen mr-2 me-2"></i>Eine Rezension schreiben';
+  const MODULE_CONTENT_TESTIMONIALS_WRITE_BUTTON_TEXT = '<i class="fas fa-pen me-2"></i>Eine Rezension schreiben';
 
   const MODULE_CONTENT_TESTIMONIALS_WRITE_PUBLIC_TEXT = 'Teilen Sie uns mit, was wir wissen sollten. Diese Kommentare könnten auf dieser Seite veröffentlicht werden, daher möchten Sie vielleicht einen Spitznamen anstelle Ihres echten Namens verwenden.';
 
