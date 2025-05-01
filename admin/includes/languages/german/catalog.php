@@ -14,17 +14,17 @@ const HEADING_TITLE = 'Kategorien / Produkte';
 const HEADING_TITLE_SEARCH = 'Suche';
 const HEADING_TITLE_GOTO = 'Gehe zu';
 
-const SECTION_HEADING_GENERAL = '<i class="fas fa-language fa-fw mr-1"></i>Beschreibung';
-const SECTION_HEADING_DATA = '<i class="fas fa-box-open fa-fw mr-1"></i>Infos';
-const SECTION_HEADING_IMAGES = '<i class="fas fa-images fa-fw mr-1"></i>Bilder';
+const SECTION_HEADING_GENERAL = '<i class="fas fa-language fa-fw me-1"></i>Beschreibung';
+const SECTION_HEADING_DATA = '<i class="fas fa-box-open fa-fw me-1"></i>Infos';
+const SECTION_HEADING_IMAGES = '<i class="fas fa-images fa-fw me-1"></i>Bilder';
 
 const TABLE_HEADING_ID = 'ID';
 const TABLE_HEADING_CATEGORIES_PRODUCTS = 'Kategorien / Produkte';
 const TABLE_HEADING_ACTION = 'Aktion';
 const TABLE_HEADING_STATUS = 'Status';
 
-const TEXT_NEW_PRODUCT = 'Neuer Artikel <small>in %s</small>';
-const TEXT_EXISTING_PRODUCT = 'Bearbeite %s <small>in %s</small>';
+const TEXT_NEW_PRODUCT = 'Neuer Artikel<br><small class="text-muted">in %s</small>';
+const TEXT_EXISTING_PRODUCT = 'Bearbeite %s<br><small class="text-muted">in %s</small>';
 
 const TEXT_CATEGORIES = 'Kategorien';
 const TEXT_PRODUCTS = 'Artikel';
@@ -44,7 +44,7 @@ const TEXT_PRODUCT_DATE_AVAILABLE = 'Erhältlich ab';
 const TEXT_EDIT_INTRO = 'Bitte führen Sie alle notwendigen Änderungen durch.';
 const TEXT_EDIT_CATEGORIES_NAME = 'Kategoriename';
 const TEXT_EDIT_CATEGORIES_IMAGE = 'Kategoriebild';
-const TEXT_EDIT_SORT_ORDER = 'Sortierreihenfolge';
+const TEXT_EDIT_SORT_ORDER = 'Sortierung';
 
 const TEXT_INFO_COPY_TO_INTRO = 'Bitte wählen Sie eine neue Kategorie aus, in die Sie das Produkt kopieren möchten';
 const TEXT_INFO_CURRENT_CATEGORIES = 'Derzeitige Kategorien';
@@ -73,10 +73,11 @@ const TEXT_SORT_ORDER = 'Sortierreihenfolge';
 
 const TEXT_PRODUCTS_STATUS = 'Produktstatus';
 const TEXT_PRODUCTS_DATE_AVAILABLE = 'Erscheinungsdatum';
-const TEXT_PRODUCTS_DATE_AVAILABLE_HELP = 'DD.MM.YYYY';
+const TEXT_PRODUCTS_DATE_AVAILABLE_HELP = '';
 const TEXT_PRODUCT_AVAILABLE = 'auf Lager';
 const TEXT_PRODUCT_NOT_AVAILABLE = 'nicht vorrätig';
 const TEXT_PRODUCTS_MANUFACTURER = 'Artikel-Hersteller';
+const TEXT_PRODUCTS_IMPORTER = 'Artikel-Importeur';
 const TEXT_PRODUCTS_NAME = 'Artikelname';
 const TEXT_PRODUCTS_DESCRIPTION = 'Artikelbeschreibung';
 const TEXT_PRODUCTS_QUANTITY = 'Artikelanzahl';
@@ -85,7 +86,11 @@ const TEXT_PRODUCTS_IMAGE = 'Artikelbild';
 const TEXT_PRODUCTS_MAIN_IMAGE = 'Artikelhauptbild';
 const TEXT_PRODUCTS_LARGE_IMAGE = 'großes Artikelbild';
 const TEXT_PRODUCTS_LARGE_IMAGE_HTML_CONTENT = 'Bildbeschreibung';
-const TEXT_PRODUCTS_ADD_LARGE_IMAGE = '<i class="fas fa-plus mr-2"></i>weiteres Galleriebbild';
+const TEXT_PRODUCTS_LARGE_IMAGE_FILE = 'Datei';
+const TEXT_PRODUCTS_LARGE_IMAGE_SORT = 'Sortierung';
+const TEXT_PRODUCTS_LARGE_IMAGE_ACTION = 'Aktion';
+const TEXT_PRODUCTS_ADD_LARGE_IMAGE = '<i class="fas fa-plus me-2"></i>weiteres Galleriebbild';
+const TEXT_PRODUCTS_DELETE_LARGE_IMAGES = '<i class="fas fa-trash me-2"></i>Alle löschen</a>';
 const TEXT_PRODUCTS_URL = 'Herstellerlink';
 const TEXT_PRODUCTS_URL_WITHOUT_HTTP = 'ohne führendes http:// oder https://';
 const TEXT_PRODUCTS_PRICE_NET = 'Artikelpreis (Netto)';
@@ -122,3 +127,5 @@ const TEXT_CATEGORIES_SEO_TITLE = 'Kategoriename für SEO:<br><small>Ersetzt den
 const TEXT_EDIT_CATEGORIES_SEO_TITLE = 'Kategoriename für SEO bearbeiten:<br><small>Ersetzt den Kategoriename im &lt;title&gt;-Meta-Element<br>und optional im Breadcrumb.<br>Bei Nichtangabe wird der normale Kategoriename verwendet.</small>';
 
 const TEXT_PRODUCTS_OTHER_IMAGES = 'Galleriebilder';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Categories/Products';

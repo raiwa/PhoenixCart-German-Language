@@ -2,19 +2,19 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2022 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Neue Produkte');
-define('HEADING_TITLE', 'Neue Produkte');
+const NAVBAR_TITLE = 'Neue Produkte';
+const HEADING_TITLE = 'Neue Produkte';
 
-define('TEXT_MANUFACTURER', 'Hersteller:');
-define('TEXT_PRICE', 'Preis:');
+const TEXT_MANUFACTURER = 'Hersteller:';
+const TEXT_PRICE = 'Preis:';
 
-define('TEXT_NO_PRODUCTS', 'Es gibt keine neuen Produkte anzuzeigen.');
+const TEXT_NO_PRODUCTS = 'Es gibt keine neuen Produkte anzuzeigen.';
 

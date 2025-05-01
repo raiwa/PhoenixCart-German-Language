@@ -10,5 +10,4 @@
   Released under the GNU General Public License
 */
 
-  define('MODULES_ADMIN_MENU_TOOLS_ADVERT_MANAGER', 'Werbungsmanager');
-
+  const MODULES_ADMIN_MENU_TOOLS_ADVERT_MANAGER = 'Werbungsmanager';

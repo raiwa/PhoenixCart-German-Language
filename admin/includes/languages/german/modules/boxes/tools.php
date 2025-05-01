@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-  define('BOX_HEADING_TOOLS', '<i data-content="Hilfsprogramme" data-toggle="popover" data-placement="left" class="fas fa-tools fa-fw mr-1"></i><span class="d-inline d-md-none">Hilfsprogramme</span>');
+  const BOX_HEADING_TOOLS = '<i title="Hilfsprogramme" class="fas fa-tools fa-fw me-1"></i><span title="Hilfsprogramme" class="d-xl-none">Hilfsprogramme</span>';

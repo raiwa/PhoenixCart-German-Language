@@ -2,17 +2,16 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2022 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-  define('MODULE_ORDER_TOTAL_SHIPPING_TITLE', 'Versand');
-  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'Versandkosten');
+  const MODULE_ORDER_TOTAL_SHIPPING_TITLE = 'Versand';
+  const MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION = 'Versandkosten';
 
-  define('FREE_SHIPPING_TITLE', 'Freier Versand');
-  define('FREE_SHIPPING_DESCRIPTION', 'Freier Versand für Bestellungen über %s');
-
+  const FREE_SHIPPING_TITLE = 'Freier Versand';
+  const FREE_SHIPPING_DESCRIPTION = 'Freier Versand für Bestellungen über %s';

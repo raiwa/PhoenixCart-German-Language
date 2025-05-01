@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Rezensionen');
-define('HEADING_TITLE', 'Rezensionen');
+const NAVBAR_TITLE = 'Rezensionen';
+const HEADING_TITLE = 'Rezensionen';

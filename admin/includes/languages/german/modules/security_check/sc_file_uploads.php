@@ -2,13 +2,12 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2020 osCommerce CE Phoenix
+  Copyright (c) 2021 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-define('WARNING_FILE_UPLOADS_DISABLED', '<strong>Warnung:</strong> File uploads ist inaktiv in dem php.ini-Konfigurations-File.');
-
+const WARNING_FILE_UPLOADS_DISABLED = '<strong>Warnung:</strong> File uploads ist inaktiv in dem php.ini-Konfigurations-File.';

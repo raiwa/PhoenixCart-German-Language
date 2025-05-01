@@ -2,15 +2,15 @@
 /*
   $Id$
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+  CE Phoenix, E-Commerce made Easy
+  https://phoenixcart.org
 
-  Copyright (c) 2019 osCommerce CE Phoenix
+  Copyright (c) 2022 Phoenix Cart
 
   Released under the GNU General Public License
 */
 
-  define('MODULE_HEADER_TAGS_MANUFACTURER_TITLE_TITLE', 'Hersteller Titel');
-  define('MODULE_HEADER_TAGS_MANUFACTURER_TITLE_DESCRIPTION', 'Den aktuellen Hersteller im Seitentitel anzeigen');
+  const MODULE_HEADER_TAGS_MANUFACTURER_TITLE_TITLE = 'Hersteller Titel';
+  const MODULE_HEADER_TAGS_MANUFACTURER_TITLE_DESCRIPTION = 'Den aktuellen Hersteller im Seitentitel anzeigen';
 
-  define('MODULE_HEADER_TAGS_MANUFACTURER_SEO_SEPARATOR', ' | ');
+  const MODULE_HEADER_TAGS_MANUFACTURER_SEO_SEPARATOR = ' | ';

@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-  define('BOX_HEADING_CUSTOMERS', '<i data-content="Kunden" data-toggle="popover" data-placement="right" class="fas fa-users fa-fw mr-1"></i><span class="d-inline d-md-none">Kunden</span>');
+  const BOX_HEADING_CUSTOMERS = '<i title="Kunden" class="fas fa-users fa-fw me-1"></i><span title="Kunden" class="d-xl-none">Kunden</span>';

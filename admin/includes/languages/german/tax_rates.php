@@ -15,7 +15,7 @@ const HEADING_TITLE = 'Steuersätze';
 const TABLE_HEADING_TAX_RATE_PRIORITY = 'Priorität';
 const TABLE_HEADING_TAX_CLASS_TITLE = 'Steuerklasse';
 const TABLE_HEADING_COUNTRIES_NAME = 'Land';
-const TABLE_HEADING_ZONE = 'Steuerzone';
+const TABLE_HEADING_ZONE = 'Zone';
 const TABLE_HEADING_TAX_RATE = 'Steuersatz';
 const TABLE_HEADING_ACTION = 'Aktion';
 
@@ -33,3 +33,5 @@ const TEXT_INFO_DELETE_INTRO = 'Sind Sie sicher, dass Sie diesen Steuersatz lös
 const TEXT_INFO_HEADING_NEW_TAX_RATE = 'Neuer Steuersatz';
 const TEXT_INFO_HEADING_EDIT_TAX_RATE = 'Steuersatz bearbeiten';
 const TEXT_INFO_HEADING_DELETE_TAX_RATE = 'Steuersatz löschen';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Tax_Rates';

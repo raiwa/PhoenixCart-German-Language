@@ -10,5 +10,4 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_CFG_MODULE_SHIPPING_TITLE', 'Versand');
-
+const MODULE_CFG_MODULE_SHIPPING_TITLE = 'Versand';

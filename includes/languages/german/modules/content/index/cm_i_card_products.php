@@ -13,4 +13,5 @@
   const MODULE_CONTENT_CARD_PRODUCTS_TITLE       = 'Neue Produkte';
   const MODULE_CONTENT_CARD_PRODUCTS_DESCRIPTION = 'Zeigt neue Produkte auf der Startseite.';
   
-  const MODULE_CONTENT_CARD_PRODUCTS_HEADING     = 'Neue Produkte im %s';
+  const MODULE_CONTENT_CARD_PRODUCTS_HEADING     = 'Unsere neuen Produkte';
+  const MODULE_CONTENT_CARD_PRODUCTS_VIEW_ALL    = 'Alle anschauen';

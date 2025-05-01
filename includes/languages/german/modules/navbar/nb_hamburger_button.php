@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_NAVBAR_HAMBURGER_BUTTON_TITLE', 'Hamburger Button');
-  define('MODULE_NAVBAR_HAMBURGER_BUTTON_DESCRIPTION', 'zeigt einen Hamburger-Button in der Navbar.  <div class="alert alert-warning">Wenn die Anzeige klein ist, wird dieser Button angezeigt.<br><br>Es öffnet und schließt das Hauptmenü der Navbar. <strong>Es wird empfohlen, dieses Modul zu installieren.</strong></div>');
+  const MODULE_NAVBAR_HAMBURGER_BUTTON_TITLE = 'Hamburger Button';
+  const MODULE_NAVBAR_HAMBURGER_BUTTON_DESCRIPTION = 'zeigt einen Hamburger-Button in der Navbar.  <div class="alert alert-warning">Wenn die Anzeige klein ist, wird dieser Button angezeigt.<br><br>Es öffnet und schließt das Hauptmenü der Navbar. <strong>Es wird empfohlen, dieses Modul zu installieren.</strong></div>';
   
-  define('MODULE_NAVBAR_HAMBURGER_BUTTON_PUBLIC_SCREENREADER_TEXT', 'Navigation umschalten');
-  define('MODULE_NAVBAR_HAMBURGER_BUTTON_PUBLIC_BUTTON_TEXT', '<span class="navbar-toggler-icon"></span>');
+  const MODULE_NAVBAR_HAMBURGER_BUTTON_PUBLIC_SCREENREADER_TEXT = 'Navigation umschalten';
+  const MODULE_NAVBAR_HAMBURGER_BUTTON_PUBLIC_BUTTON_TEXT = '<span class="navbar-toggler-icon"></span>';
