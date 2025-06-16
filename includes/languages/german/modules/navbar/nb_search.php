@@ -13,4 +13,4 @@
   const MODULE_NAVBAR_SEARCH_TITLE = 'Suche';
   const MODULE_NAVBAR_SEARCH_DESCRIPTION = 'Suchsymbol in der Navigationsleiste anzeigen. <div class="alert alert-warning">Dies ruft ein modales Popup-Fenster auf, das ein Suchfeld anzeigt.</div>';
 
-  const MODULE_NAVBAR_SEARCH_PUBLIC_TEXT = '<i title="Unsere Seite durchsuchen" class="fas fa-magnifying-glass fa-fw"></i><span class="d-inline d-sm-none"> Unsere Seite durchsuchen</span>';
+  const MODULE_NAVBAR_SEARCH_PUBLIC_TEXT = '<i title="Produktsuche" class="fas fa-magnifying-glass fa-fw fa-xl"></i><span class="ps-1">Produktsuche</span>';

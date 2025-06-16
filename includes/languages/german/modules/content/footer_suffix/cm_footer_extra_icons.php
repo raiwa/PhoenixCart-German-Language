@@ -11,9 +11,10 @@
 */
 
   const MODULE_CONTENT_FOOTER_EXTRA_ICONS_TITLE = 'Extera Fußzeilen-Icons';
+
   const MODULE_CONTENT_FOOTER_EXTRA_ICONS_DESCRIPTION = <<<'EOT'
-Fügt FontAwesome-Icons in die extra Fußzeile Ihrer Website hinzu.<div class="alert alert-info">Verfügbare Icons sind hier zu sehen: https://fontawesome.com/v5/search?o=r&ic=free&c=payments-shopping</div>
-EOT;
+  Fügt FontAwesome-Icons zur extra Fußzeile Ihrer Website hinzu.<div class="alert alert-info">Iconsuche: https://fontawesome.com/v6/search</div>
+  EOT;
 
+  // alternatively you can override Fontawesome using;
   const MODULE_CONTENT_FOOTER_EXTRA_ICONS_TEXT = '';
-

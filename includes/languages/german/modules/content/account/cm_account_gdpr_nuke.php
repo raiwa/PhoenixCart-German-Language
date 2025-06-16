@@ -20,10 +20,7 @@
 
   const MODULE_CONTENT_ACCOUNT_GDPR_NUKE_HEADING_TITLE = 'Mein Konto löschen';
 
-  const MODULE_CONTENT_ACCOUNT_GDPR_NUKE_TEXT = '
-    <p class="lead">Das Löschen Ihres Kontos kann nicht rückgängig gemacht werden!</p>
-    <p>Bitte stellen Sie sicher, dass Sie dies wirklich tun möchten.</p>
-    ';
+  const MODULE_CONTENT_ACCOUNT_GDPR_NUKE_TEXT = '<p class="lead">Das Löschen Ihres Kontos kann nicht rückgängig gemacht werden. Bitte stellen Sie sicher, dass Sie dies wirklich tun möchten.</p>';
 
   const MODULE_CONTENT_ACCOUNT_GDPR_NUKE_TICKBOX = 'Markieren Sie diese Checkbox:';
 
@@ -33,3 +30,4 @@
     ';
 
   const MODULE_CONTENT_GDPR_NUKE_MESSAGESTACK_NUKED = 'Ihr Konto wurde gelöscht!';
+  const MODULE_CONTENT_GDPR_NUKE_MESSAGESTACK_PASSWORD_INCORRECT = 'Falsches Passwort. Ihr Konto wurde nicht gelöscht.';

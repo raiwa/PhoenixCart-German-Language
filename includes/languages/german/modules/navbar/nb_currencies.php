@@ -13,4 +13,4 @@
   const MODULE_NAVBAR_CURRENCIES_TITLE = 'Währungen';
   const MODULE_NAVBAR_CURRENCIES_DESCRIPTION = 'zeigt Link zu Währungen in der Navbar. <div class="alert alert-warning">Wenn nur eine Währung im Shop angeboten wird, muss dieses Modul nicht installiert werden.</div>';
   
-  const MODULE_NAVBAR_CURRENCIES_SELECTED_CURRENCY = '<i title="gewählte Währung: %1$s" class="fas fa-comments-dollar"></i><span class="d-inline d-sm-none d-md-inline"> %1$s</span> <span class="caret"></span>';
+  const MODULE_NAVBAR_CURRENCIES_SELECTED_CURRENCY = '<i title="Gewählte Währung: %1$s" class="fas fa-money-bill-1-wave fa-fw fa-xl"></i><span class="d-inline d-sm-none d-md-inline"> %1$s</span>';
