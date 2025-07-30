@@ -34,10 +34,10 @@ const HTPASSWD_INFO = <<<'EOT'
 <p>Durch Aktivieren der htaccess/htpasswd Security-Layer werden automatisch der Administrator-Benutzername und das Kennwort in einer htpasswd-Datei beim Administrator-Passwort-Update aktualisiert. </p>
 <p><strong>Hinweis:</strong> Wenn Sie diesen Schutz aktivieren und Sie sich nicht mehr im Administrations-Tool anmelden können,
  führen Sie die folgenden Änderungen durch und kontaktieren Sie den Provider Ihrere Website mit der Bitte, den htaccess / htpasswd-Schutz zu aktivieren:</p>
-<p><u><strong>1. Bearbeiten Sie diese Datei:</strong></u><br /><br />%s</p>
+<p><u><strong>1. Bearbeiten Sie diese Datei:</strong></u><br><br>%s</p>
 <p>Entfernen Sie die folgenden Zeilen, wenn sie vorhanden sind:</p>
 <p><i>%s</i></p>
-<p><u><strong>2. Löschen Sie diese Datei:</strong></u><br /><br />%s</p>
+<p><u><strong>2. Löschen Sie diese Datei:</strong></u><br><br>%s</p>
 EOT;
 const HTPASSWD_SECURED = <<<'EOT'
 <strong>Zusätzlicher Schutz durch htaccess/htpasswd</strong>

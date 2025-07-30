@@ -18,7 +18,7 @@
 
 const MODULE_PAYMENT_PAYPAL_STANDARD_TEXT_TITLE = 'PayPal Standard-Zahlungen';
 const MODULE_PAYMENT_PAYPAL_STANDARD_TEXT_PUBLIC_TITLE = 'PayPal';
-const MODULE_PAYMENT_PAYPAL_STANDARD_TEXT_DESCRIPTION = '<div class="alert alert-warning text-break">Aktivieren Sie die automatische Rückkehr für Website-Zahlungen in Ihren PayPal-Einstellungen und konfigurieren Sie die Rückgabe-URL auf:<br/>%s<br><br>Aktivieren Sie PDT und kopieren Sie das Identitäts-Token in das Modul.<br><br>Aktivieren Sie die Sofortige Zahlungsbenachrichtigung und setzen Sie die Benachrichtigungs-URL auf:<br/>%s</div><i class="fas fa-external-link-alt me-2"></i><a href="https://www.paypal.com" target="_blank" rel="noopener">PayPal-Website</a>';
+const MODULE_PAYMENT_PAYPAL_STANDARD_TEXT_DESCRIPTION = '<div class="alert alert-warning text-break">Aktivieren Sie die automatische Rückkehr für Website-Zahlungen in Ihren PayPal-Einstellungen und konfigurieren Sie die Rückgabe-URL auf:<br>%s<br><br>Aktivieren Sie PDT und kopieren Sie das Identitäts-Token in das Modul.<br><br>Aktivieren Sie die Sofortige Zahlungsbenachrichtigung und setzen Sie die Benachrichtigungs-URL auf:<br>%s</div><i class="fas fa-external-link-alt me-2"></i><a href="https://www.paypal.com" target="_blank" rel="noopener">PayPal-Website</a>';
 
 const MODULE_PAYMENT_PAYPAL_STANDARD_TEXT_RETURN_BUTTON = 'Zurück zu ' . STORE_NAME; // max. 60 Zeichen
 

@@ -14,3 +14,6 @@
   const PI_QTY_INPUT_DESCRIPTION = 'Zeigt ein Mengen-Eingabefeld auf der Produktinformationsseite an.<div class="alert alert-info">Dies ist ein Untermodul für das &pi;-System.</div>';
 
   const PI_QTY_INPUT_BUTTON_TEXT = 'Anzahl: ';
+  
+  const PI_QTY_INPUT_INCREASE = 'Menge erhöhen';
+  const PI_QTY_INPUT_DECREASE = 'Menge verringern';

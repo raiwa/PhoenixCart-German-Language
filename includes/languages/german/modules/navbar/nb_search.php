@@ -13,4 +13,8 @@
   const MODULE_NAVBAR_SEARCH_TITLE = 'Suche';
   const MODULE_NAVBAR_SEARCH_DESCRIPTION = 'Suchsymbol in der Navigationsleiste anzeigen. <div class="alert alert-warning">Dies ruft ein modales Popup-Fenster auf, das ein Suchfeld anzeigt.</div>';
 
-  const MODULE_NAVBAR_SEARCH_PUBLIC_TEXT = '<i title="Produktsuche" class="fas fa-magnifying-glass fa-fw fa-xl"></i><span class="ps-1">Produktsuche</span>';
+  const MODULE_NAVBAR_SEARCH_PUBLIC_TEXT = '<i aria-hidden="true" class="fas fa-magnifying-glass fa-fw fa-xl pe-1"></i>Produktsuche';
+  
+  const MODULE_NAVBAR_SEARCH_ARIA_LABEL = 'Produktsuche';
+  const MODULE_NAVBAR_SEARCH_SEARCH_TEXT = '<i class="fas fa-magnifying-glass fa-fw fa-xl" aria-hidden="true"></i>';
+  
