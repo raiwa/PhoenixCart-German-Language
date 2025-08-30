@@ -23,6 +23,7 @@ const TEXT_HEADING_EDIT_OUTGOING_EMAIL = 'Bearbeiten der E-Mail in der Warteschl
 const TEXT_OUTGOING_DATE = 'Senden Am:';
 const TEXT_OUTGOING_SLUG = 'Slug:';
 const TEXT_OUTGOING_EMAIL = 'E-Mail-Adresse:';
+const TEXT_OUTGOING_i18n = 'Sprache:';
 
 const TEXT_HEADING_NEW_OUTGOING_EMAIL = 'E-Mail zur Warteschlange hinzufügen';
 const TEXT_OUTGOING_CUSTOMER = 'Kunde:';
