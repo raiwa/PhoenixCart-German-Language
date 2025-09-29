@@ -17,4 +17,5 @@
   
   const MODULE_NAVBAR_SEARCH_ARIA_LABEL = 'Produktsuche';
   const MODULE_NAVBAR_SEARCH_SEARCH_TEXT = '<i class="fas fa-magnifying-glass fa-fw fa-xl" aria-hidden="true"></i>';
-  
+
+  const MODULE_NAVBAR_SEARCH_ADVANCED = 'Probieren Sie unsere erweiterte Suche';
