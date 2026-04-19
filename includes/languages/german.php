@@ -51,27 +51,16 @@ const ERROR_NO_PAYMENT_MODULE_SELECTED = 'Bitte wählen Sie eine Zahlungsweise f
 
 const IMAGE_BUTTON_ADD_ADDRESS = 'Neue Adresse';
 const IMAGE_BUTTON_BACK = 'Zurück';
-const IMAGE_BUTTON_BUY_NOW = 'In den Warenkorb';
-const IMAGE_BUTTON_CHANGE_ADDRESS = 'Adresse ändern';
-const IMAGE_BUTTON_CHECKOUT = 'Kasse';
 const IMAGE_BUTTON_CLOSE = 'Schließen';
-const IMAGE_BUTTON_CONFIRM_ORDER = 'jetzt zahlungspflichtig bestellen';
-const IMAGE_BUTTON_CONTINUE = 'Weiter';
+const IMAGE_BUTTON_CONTACT_US = 'Contact Us';
+const IMAGE_BUTTON_CONTINUE = 'Kontakt';
 const IMAGE_BUTTON_DELETE = 'Löschen';
-const IMAGE_BUTTON_LOGIN = 'Anmelden';
-const IMAGE_BUTTON_IN_CART = 'In den Warenkorb';
 const IMAGE_BUTTON_SEARCH = 'Suchen';
 const IMAGE_BUTTON_UPDATE = 'Aktualisieren';
 const IMAGE_BUTTON_UPDATE_PREFERENCES = 'Einstellungen aktualisieren';
 
 const SMALL_IMAGE_BUTTON_DELETE = 'Löschen';
 const SMALL_IMAGE_BUTTON_EDIT = 'Bearbeiten';
-const SMALL_IMAGE_BUTTON_VIEW = 'zum Artikel';
-const SMALL_IMAGE_BUTTON_BUY = 'in den Warenkorb';
-
-const TEXT_CCVAL_ERROR_INVALID_DATE = 'The expiry date entered for the credit card is invalid. Please check the date and try again.';
-const TEXT_CCVAL_ERROR_INVALID_NUMBER = 'The credit card number entered is invalid. Please check the number and try again.';
-const TEXT_CCVAL_ERROR_UNKNOWN_CARD = 'The first four digits of the number entered are: %s. If that number is correct, we do not accept that type of credit card. If it is wrong, please try again.';
 
 const TEXT_SEARCH_PLACEHOLDER = 'Suche';
 

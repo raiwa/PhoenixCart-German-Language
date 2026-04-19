@@ -14,6 +14,7 @@ const HEADING_TITLE = 'Kunden mit den höchsten Umsätzen';
 
 const TABLE_HEADING_NUMBER = 'Nr.';
 const TABLE_HEADING_CUSTOMERS = 'Kunde';
+const TABLE_HEADING_CUSTOMERS_ID = 'ID';
 const TABLE_HEADING_TOTAL_PURCHASED = 'Gesamtsumme';
 
 const TABLE_HEADING_ACTION = 'Aktion';
