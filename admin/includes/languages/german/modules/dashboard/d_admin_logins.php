@@ -10,6 +10,6 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_ADMIN_DASHBOARD_ADMIN_LOGINS_TITLE', 'Letzte Administrator Logins');
-define('MODULE_ADMIN_DASHBOARD_ADMIN_LOGINS_DESCRIPTION', 'Zeigt die letzten erfolgreichen und fehlgeschlagenen Administratoranmeldungen an');
-define('MODULE_ADMIN_DASHBOARD_ADMIN_LOGINS_DATE', 'Datum');
+const MODULE_ADMIN_DASHBOARD_ADMIN_LOGINS_TITLE = 'Letzte Administrator Logins';
+const MODULE_ADMIN_DASHBOARD_ADMIN_LOGINS_DESCRIPTION = 'Zeigt die letzten erfolgreichen und fehlgeschlagenen Administratoranmeldungen an';
+const MODULE_ADMIN_DASHBOARD_ADMIN_LOGINS_DATE = 'Datum';

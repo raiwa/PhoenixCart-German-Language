@@ -29,7 +29,7 @@ const TEXT_ADVERT_IMAGE_LOCAL = 'ODER geben Sie einen lokalen Dateinamen an';
 const TEXT_ADVERT_IMAGE_TARGET = 'Ins Verzeichnis speichern';
 const TEXT_ADVERT_HTML_TEXT = 'HTML Text';
 
-const TEXT_ADVERT_TITLE_HELP = 'Dies wird nur für die Liste der Werbungen als Erinnerung für Sie benötigt.';
+const TEXT_ADVERT_TITLE_HELP = 'Dies wird in der Liste der Werbungen (Admin-Seite) als Erinnerung für Sie und als Bild-ALT-Text (Shop-Seite) verwendet.';
 const TEXT_ADVERT_URL_HELP = 'Fügen Sie https:// für externe Links ein, oder nur den Name für interne links (z.B. product_info.php oder advanced_search_result.php)';
 const TEXT_ADVERT_FRAGMENT_HELP = 'Wird nur in Verbindung mit intenen Links im Shop benutzt. Fragment-URL steht für (z.B.) products_id=3 oder keywords=xyz';
 const TEXT_ADVERT_SORT_HELP = 'Dies legt die Werbungssortierung innerhalb der Gruppe fest.';
@@ -72,9 +72,11 @@ const ERROR_ADVERT_IMAGE_OR_TEXT_REQUIRED = '<strong>Error:</strong> Sie haben k
 const TEXT_DISPLAY_NUMBER_OF_ADVERTS = 'Zeige <b>%s</b> bis <b>%s</b> von <b>%s</b> Werbungen';
 const IMAGE_NEW_ADVERT = 'Neue Werbung';
 
-const TEXT_ADVERT_EXTERNAL_URL = '<i class="fas fa-external-link-alt mr-1"></i> externer Link:<br>%s';
-const TEXT_ADVERT_INTERNAL_URL = '<i class="fas fa-link mr-1"></i> interner Link:<br>%s';
+const TEXT_ADVERT_EXTERNAL_URL = '<i class="fas fa-external-link-alt me-1"></i> externer Link:<br>%s';
+const TEXT_ADVERT_INTERNAL_URL = '<i class="fas fa-link me-1"></i> interner Link:<br>%s';
 
 const IMAGE_IMPORT_ADVERT = 'Versuche Banner Import';
 const IMAGE_IMPORT_ADVERT_EXPLANATION = 'Dies wird Daten von den "banners" Datenbankeinträgen importieren. Eventuell müssen Sie die Daten anschließend noch anpassen, damit alles korrekt im Carousel angezeigt werden kann...';
 const SUCCESS_BANNERS_IMPORTED = '<strong>Erfolg:</strong> Daten aus "banners" Datenbankeinträgen importiert!';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Advert_Manager';

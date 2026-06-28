@@ -10,6 +10,6 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_HEADER_TAGS_CATEGORY_SEO_TITLE', 'Kategorie SEO');
-  define('MODULE_HEADER_TAGS_CATEGORY_SEO_DESCRIPTION', 'Fügt SEO-Elemente, die Sie für die Kategorie definiert haben, zum zugrunde liegenden Code der Kategorieseite hinzu (auch bekannt als Meta Description und Meta Keywords). Gut für SEO.');
+  const MODULE_HEADER_TAGS_CATEGORY_SEO_TITLE = 'Kategorie SEO';
+  const MODULE_HEADER_TAGS_CATEGORY_SEO_DESCRIPTION = 'Fügt SEO-Elemente, die Sie für die Kategorie definiert haben, zum zugrunde liegenden Code der Kategorieseite hinzu (auch bekannt als Meta Description und Meta Keywords). Gut für SEO.';
 

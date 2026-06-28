@@ -21,7 +21,7 @@ const TEXT_INFO_HEADING_NEW_BACKUP = 'Neue Sicherung';
 const TEXT_INFO_HEADING_RESTORE_LOCAL = 'Lokal wiederherstellen';
 const TEXT_INFO_NEW_BACKUP = 'Bitte den Sicherungsprozess AUF KEINEN FALL unterbrechen. Dieser kann einige Minuten in Anspruch nehmen.';
 const TEXT_INFO_UNPACK = '<br><br>(nach dem die Dateien aus dem Archiv extrahiert wurden)';
-const TEXT_INFO_RESTORE = 'Den Wiederherstellungsprozess AUF KEINEN FALL unterbrechen.<br /><br />Je grösser die Sicherungsdatei - desto länger dauert die Wiederherstellung!<br /><br />Bitte wenn möglich den mysql client benutzen.<br /><br />Beispiel:<br /><br /><strong>mysql -h' . DB_SERVER . ' -u' . DB_SERVER_USERNAME . ' -p ' . DB_DATABASE . ' < %s </strong> %s';
+const TEXT_INFO_RESTORE = 'Den Wiederherstellungsprozess AUF KEINEN FALL unterbrechen.<br><br>Je grösser die Sicherungsdatei - desto länger dauert die Wiederherstellung!<br><br>Bitte wenn möglich den mysql client benutzen.<br><br>Beispiel:<br><br><strong>mysql -h' . DB_SERVER . ' -u' . DB_SERVER_USERNAME . ' -p ' . DB_DATABASE . ' < %s </strong> %s';
 const TEXT_INFO_RESTORE_LOCAL = 'Den Wiederherstellungsprozess AUF KEINEN FALL unterbrechen.<br><br>Je grösser die Sicherungsdatei - desto länger dauert die Wiederherstellung!';
 const TEXT_INFO_RESTORE_LOCAL_RAW_FILE = 'Die Datei, welche hochgeladen wird muss eine sogenannte raw sql Datei sein (nur Text).';
 const TEXT_INFO_DATE = 'Datum: %s';
@@ -38,6 +38,8 @@ const TEXT_BACKUP_DIRECTORY = 'Backup Verzeichnis:<br>%s';
 const TEXT_LAST_RESTORATION = 'Letzte Wiederherstellung:<br>%s';
 const TEXT_FORGET = 'Abbrechen';
 
+const PHP_DATE_TIME_FORMAT = 'd/m/Y H:i:s'; // this is used for date()
+
 const ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST = '<strong>Fehler:</strong> Das Sicherungsverzeichnis ist nicht vorhanden. Bitte stellen Sie dies in der configure.php ein.';
 const ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE = '<strong>Fehler:</strong> Das Sicherungsverzeichnis ist schreibgeschützt.';
 const ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE = '<strong>Fehler:</strong> Download Link nicht akzeptabel.';
@@ -51,3 +53,5 @@ const SUCCESS_DATABASE_RESTORED = '<strong>Erfolg:</strong> Die Datenbank wurde 
 const SUCCESS_BACKUP_DELETED = '<strong>Erfolg:</strong> Die Sicherungsdatei wurde gelöscht.';
 
 const TEXT_INFO_BACKUP_SIZE = '%s MB';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Database_Backup';

@@ -10,8 +10,6 @@
   Released under the GNU General Public License
 */
 
-const NAVBAR_TITLE = 'Liefer- und Versandkosten';
-
 /*
 Der Titel und der Text dieser Seite können im Info-Seiten-Manager geändert werden.
 Admin > Werkzeuge > Info-Seiten

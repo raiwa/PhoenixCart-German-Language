@@ -13,8 +13,10 @@
 const HEADING_TITLE = 'Kunden';
 const HEADING_TITLE_SEARCH = 'Suche:';
 
+const TABLE_HEADING_ID = 'ID';
 const TABLE_HEADING_NAME = 'Name';
 const TABLE_HEADING_ACCOUNT_CREATED = 'Zugang erstellt am';
+const TABLE_HEADING_STATUS = 'Status';
 const TABLE_HEADING_ACTION = 'Aktion';
 
 const TEXT_DATE_ACCOUNT_CREATED = 'Zugang erstellt am: %s';
@@ -31,6 +33,10 @@ const PLEASE_SELECT = 'Auswählen';
 
 const PULL_DOWN_DEFAULT = PLEASE_SELECT;
 
+const CUSTOMER_REVIEW_ANONYMIZED = 'Verifizierter Kunde';
+
 const ERROR_PAGE_HAS_UNMET_REQUIREMENT = <<<'EOT'
   Die Nutzerseite benötigt, dass folgende Nutzerdatenmodule installiert sind: 'sortable_name', 'name', 'email_address', 'country_id', und 'id' .  Es fehlt:
 EOT;
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Customers';

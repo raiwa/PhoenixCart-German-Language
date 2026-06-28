@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_TITLE', 'Kunden Statistik');
-define('MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_DESCRIPTION', 'Zeige den Kundenchart der letzten X Tage');
+const MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_TITLE = 'Kunden Statistik';
+const MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_DESCRIPTION = 'Zeige den Kundenchart der letzten X Tage';
 
-define('MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_CHART_LINK', 'Kunden insgesamt');
+const MODULE_ADMIN_DASHBOARD_TOTAL_CUSTOMERS_CHART_LINK = 'Kunden insgesamt';

@@ -10,27 +10,27 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Bewertung schreiben');
+const NAVBAR_TITLE = 'Bewertung schreiben';
 
-define('SUB_TITLE_FROM', 'Von');
-define('SUB_TITLE_REVIEW', 'Ihre Bewertung');
+const SUB_TITLE_FROM = 'Von';
+const SUB_TITLE_REVIEW = 'Ihre Bewertung';
 
-define('SUB_TITLE_RATING', 'Bewertung');
-define('SUB_TITLE_REVIEW_TEXT', 'Ihre Bewertung...');
-define('SUB_TITLE_REVIEW_NICKNAME', 'Ihr Name');
+const SUB_TITLE_RATING = 'Bewertung';
+const SUB_TITLE_REVIEW_TEXT = 'Ihre Bewertung...';
+const SUB_TITLE_REVIEW_NICKNAME = 'Ihr Name';
 
-define('VERIFIED_BUYER', '%s [verifizierter Käufer]');
+const VERIFIED_BUYER = '%s [verifizierter Käufer]';
 
-define('TEXT_BAD', '%s (schlechteste)');
-define('TEXT_GOOD', '%s (beste)');
+const TEXT_BAD = '%s (schlechteste)';
+const TEXT_GOOD = '%s (beste)';
 
-define('TEXT_RATED', 'Dieses Produkt bewerten %s');
+const TEXT_RATED = 'Dieses Produkt bewerten %s';
 
-define('IMAGE_BUTTON_ADD_REVIEW', 'Bewertung abschicken');
+const IMAGE_BUTTON_ADD_REVIEW = 'Bewertung abschicken';
 
-define('TEXT_REVIEW_RECEIVED', 'Danke für die Bewertung, %s. Sie wurde erfolgreich übermittelt und erscheint in Kürze auf unserer Seite.');
+const TEXT_REVIEW_RECEIVED = 'Danke für die Bewertung, %s. Sie wurde erfolgreich übermittelt und erscheint in Kürze auf unserer Seite.';
 
-define('TEXT_REVIEW_WRITING', '<p class="lead">%s, Bitte hinterlassen Sie Ihre Meinung und Bewertung für %s - Vielen Dank!</p><p>Nach dem Absenden erscheint die Bewertung in Kürze auf unserer Seite.</p>');
+const TEXT_REVIEW_WRITING = '<p class="lead">%s, bitte teilen Sie uns Ihre Meinung und Bewertung zu %s mit – vielen Dank!</p><p>Nachdem Sie auf den „Senden“-Button geklickt haben, sollte Ihre Bewertung in Kürze auf der Website erscheinen.</p>';
 
-define('TEXT_NOT_PURCHASED', '%s möglicher Fehler: Sie haben dieses Produkt nicht gekauft');
-define('TEXT_ALREADY_REVIEWED', '%s möglicher Fehler: Sie haben dieses Produkt bereits bewertet');
+const TEXT_NOT_PURCHASED = '%s vielen Dank für Ihr Interesse! Bewertungen sind derzeit nur für verifizierte Käufer möglich, um die Authentizität sicherzustellen.<br>Wenn Sie diesen Artikel kürzlich gekauft haben, erlauben Sie bitte 24–48 Stunden für die Synchronisierung Ihrer Bestellung.';
+const TEXT_ALREADY_REVIEWED = '%s wir sehen, dass Sie bereits eine Bewertung für dieses Produkt abgegeben haben.<br>Vielen Dank, dass Sie sich die Zeit genommen haben, Ihre Erfahrung zu teilen!';

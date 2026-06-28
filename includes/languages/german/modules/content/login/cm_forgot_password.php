@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_CONTENT_FORGOT_PASSWORD_TITLE', 'Passwort vergessen');
-  define('MODULE_CONTENT_FORGOT_PASSWORD_DESCRIPTION', 'Zeigt einen Link um das Passwort zu ändern auf der Login-Seite an.');
+  const MODULE_CONTENT_FORGOT_PASSWORD_TITLE = 'Passwort vergessen';
+  const MODULE_CONTENT_FORGOT_PASSWORD_DESCRIPTION = 'Zeigt einen Link um das Passwort zu ändern auf der Login-Seite an.';
 
-  define('MODULE_CONTENT_FORGOT_PASSWORD_INTRO_TEXT', 'Passwort vergessen');
-  define('MODULE_CONTENT_FORGOT_PASSWORD_BUTTON_TEXT', 'Passwort zurücksetzen');
+  const MODULE_CONTENT_FORGOT_PASSWORD_INTRO_TEXT = 'Passwort vergessen';
+  const MODULE_CONTENT_FORGOT_PASSWORD_BUTTON_TEXT = 'Passwort zurücksetzen';

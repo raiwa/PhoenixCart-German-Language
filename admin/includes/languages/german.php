@@ -17,30 +17,27 @@
 // 'en_AU.UTF-8', 'en_AU.UTF8', 'ena_au'
 
 setlocale(LC_ALL, ['de_DE.UTF8', 'de_DE.UTF-8', 'deu_deu' ]);
-const DATE_FORMAT_SHORT = '%d/%m/%Y';  // this is used for strftime()
-const DATE_FORMAT_LONG = '%A %d %B, %Y'; // this is used for strftime()
-const DATE_FORMAT = 'd/m/Y'; // this is used for date()
-const PHP_DATE_TIME_FORMAT = 'd/m/Y H:i:s'; // this is used for date()
-const DATE_TIME_FORMAT = DATE_FORMAT_SHORT . ' %H:%M:%S';
-const JQUERY_DATEPICKER_I18N_CODE = ''; // leave empty for en_US; see http://jqueryui.com/demos/datepicker/#localization
-const JQUERY_DATEPICKER_FORMAT = 'dd/mm/yy'; // see http://docs.jquery.com/UI/Datepicker/formatDate
+
+$long_date_formatter = new IntlDateFormatter('de', IntlDateFormatter::FULL, IntlDateFormatter::NONE);
+$short_date_formatter = new IntlDateFormatter('de', IntlDateFormatter::SHORT, IntlDateFormatter::NONE);
+$date_time_formatter = new IntlDateFormatter('de', IntlDateFormatter::SHORT, IntlDateFormatter::LONG);
 
 // Global entries for the <html> tag
-const HTML_PARAMS ='dir="ltr" lang="de"';
+const HTML_PARAMS =' dir="ltr" lang="de"';
 
 // charset for web pages and emails
 const CHARSET = 'utf-8';
 
 // page title
-const TITLE = 'CE Phoenix Cart Administration Tool';
+const TITLE = 'Phoenix Cart Administration Tool';
 
 // header text in includes/hooks/admin/siteWide/hMenu.php
-const HEADER_TITLE_ONLINE_CATALOG = '<i class="fas fa-shopping-cart mr-1 text-primary" aria-hidden="true"></i><span class="border-bottom border-primary">Front-End</span>';
-const HEADER_TITLE_PHOENIX_CLUB = '<i class="fas fa-question-circle mr-1 text-primary" aria-hidden="true"></i><span class="border-bottom border-primary">Hilfe</span>';
-const HEADER_TITLE_PHOENIX_WIKI = '<i class="fas fa-school mr-1 text-primary" aria-hidden="true"></i><span class="border-bottom border-primary">Handbuch</span>';
-const HEADER_TITLE_CERTIFIED_DEVELOPERS = '<i class="fas fa-laptop-code mr-1 text-primary" aria-hidden="true"></i><span class="border-bottom border-primary">Zertifizierte Entwickler</span>';
-const HEADER_TITLE_CERTIFIED_ADDONS = '<i class="fas fa-folder-plus mr-1 text-primary" aria-hidden="true"></i><span class="border-bottom border-primary">Addons</span>';
-const HEADER_TITLE_LOGOFF = '<i class="fas fa-lock mr-1" aria-hidden="true"></i><span class="border-bottom border-danger">%s, sicher ausloggen</span>';
+const HEADER_TITLE_ONLINE_CATALOG = '<i class="fas fa-shopping-cart me-1 text-primary" aria-hidden="true" title="Front-End"></i><span class="border-bottom border-primary">Front-End</span>';
+const HEADER_TITLE_PHOENIX_CLUB = '<i class="fas fa-question-circle me-1 text-primary" aria-hidden="true" title="Forum"></i><span class="border-bottom border-primary">Forum</span>';
+const HEADER_TITLE_PHOENIX_WIKI = '<i class="fas fa-school me-1 text-primary" aria-hidden="true" title="Handbuch"></i><span class="border-bottom border-primary">Handbuch</span>';
+const HEADER_TITLE_CERTIFIED_DEVELOPERS = '<i class="fas fa-laptop-code me-1 text-primary" aria-hidden="true" title="Zertifizierte Partner"></i><span class="border-bottom border-primary">Zertifizierte Partner</span>';
+const HEADER_TITLE_CERTIFIED_ADDONS = '<i class="fas fa-folder-plus me-1 text-primary" aria-hidden="true" title="Addons"></i><span class="border-bottom border-primary">Addons</span>';
+const HEADER_TITLE_LOGOFF = '<i class="fas fa-lock me-1" aria-hidden="true" title="Ausloggen"></i><span class="border-bottom border-danger">%s, sicher ausloggen</span>';
 
 // images
 const IMAGE_BACK = 'Zurück';
@@ -137,3 +134,11 @@ const PLACEHOLDER_COMMA_SEPARATION = 'Muss, durch, Komma, getrennt, werden';
 const FORM_REQUIRED_INPUT = '<span class="form-control-feedback text-danger"><i class="fas fa-asterisk"></i></span>';
 
 const TEXT_IMAGE_NON_EXISTENT = 'BILD IST NICHT VORHANDEN';
+
+const STAR_RATING = 'Mit %s Sternen bewertet';
+
+const GET_HELP = '<img alt="" src="images/icon_phoenix.png" class="me-2">Hilfe';
+const GET_ADDONS = '<img alt="" src="images/icon_phoenix.png" class="me-2">Addons';
+const ADDONS_FREE = 'Gratis';
+const ADDONS_COMMERCIAL = 'Kostenpflichtig';
+const ADDONS_PRO = 'PRO';

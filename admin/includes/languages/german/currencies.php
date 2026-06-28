@@ -41,4 +41,6 @@ const ERROR_REMOVE_DEFAULT_CURRENCY = '<strong>Error:</strong> Die Standardwähr
 const ERROR_CURRENCY_INVALID = '<strong>Error:</strong> Die Verbrauchssteuer für %s (%s) wurde nicht aktualisiert via %s. Ist es ein gültiger Währungcode?';
 const WARNING_PRIMARY_SERVER_FAILED = '<strong>Warnung:</strong> Der primäre Server (%s) scheiterte bei %s (%s) - teste sekundären Server.';
 
-const ERROR_INSTALL_CURRENCY_CONVERTER = 'Derzeit ist kein Währungsumrechner installiert.  <a class="alert-link font-weight-bold" href="%s">Jetzt installieren</a>';
+const ERROR_INSTALL_CURRENCY_CONVERTER = 'Derzeit ist kein Währungsumrechner installiert.  <a class="alert-link fw-bold" href="%s">Jetzt installieren</a>';
+
+const GET_HELP_LINK = 'https://phoenixcart.org/phoenixcartwiki/index.php?title=Currencies';

@@ -10,4 +10,4 @@
   Released under the GNU General Public License
 */
 
-define('NAVBAR_TITLE', 'Warenkorb');
+const NAVBAR_TITLE = 'Warenkorb';

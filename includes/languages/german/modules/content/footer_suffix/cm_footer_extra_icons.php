@@ -10,10 +10,11 @@
   Released under the GNU General Public License
 */
 
-  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_TITLE = 'Icons von Zahlarten';
-  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_DESCRIPTION = <<<'EOT'
-Fügt die Icons von Zahlarten in die Fußzeile der Seite ein. <div class="alert alert-info">Verfügbare Icons gibt es hier: https://fontawesome.com/icons?d=gallery&s=brands&c=payments-shopping</div>
-EOT;
-  
-  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_TEXT = '';
+  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_TITLE = 'Extera Fußzeilen-Icons';
 
+  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_DESCRIPTION = <<<'EOT'
+Fügt FontAwesome-Icons zur extra Fußzeile Ihrer Website hinzu.<div class="alert alert-info">Iconsuche: https://fontawesome.com/v6/search</div>
+EOT;
+
+  // alternatively you can override Fontawesome using;
+  const MODULE_CONTENT_FOOTER_EXTRA_ICONS_TEXT = '';

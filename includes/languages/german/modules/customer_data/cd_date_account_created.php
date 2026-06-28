@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-const MODULE_CUSTOMER_DATA_DATE_ACCOUNT_CREATED_TEXT_TITLE = 'Datum Accounterstellung';
-const MODULE_CUSTOMER_DATA_DATE_ACCOUNT_CREATED_TEXT_DESCRIPTION = 'zeigt das Datum der Accounterstellung';
+const MODULE_CUSTOMER_DATA_DATE_ACCOUNT_CREATED_TEXT_TITLE = 'Datum Kontoerstellung';
+const MODULE_CUSTOMER_DATA_DATE_ACCOUNT_CREATED_TEXT_DESCRIPTION = 'zeigt das Datum der Kontoerstellung';
