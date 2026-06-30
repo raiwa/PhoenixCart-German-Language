@@ -27,8 +27,8 @@ const ENTRY_PRICE_TO = 'Preis bis:';
 const ENTRY_DATE_FROM = 'hinzugefügt von:';
 const ENTRY_DATE_TO = 'hinzugefügt bis:';
 
-const ENTRY_PRICE_FROM_TEXT = '';
-const ENTRY_PRICE_TO_TEXT = '';
+const ENTRY_PRICE_FROM_TEXT = 'Ab Preis';
+const ENTRY_PRICE_TO_TEXT = 'Bis Preis';
 
 const ENTRY_DATE = 'Datum';
 const ENTRY_PRICE = 'Preis';
