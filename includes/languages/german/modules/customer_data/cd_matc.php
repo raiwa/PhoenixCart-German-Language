@@ -15,7 +15,7 @@ const MODULE_CUSTOMER_DATA_MATC_TEXT_DESCRIPTION = 'Zustimmung zu den AGB und Da
 
 // for the page(s)
 const ENTRY_MATC = 'AGB und Datenschutz';
-const ENTRY_MATC_TEXT = 'Klicken Sie auf die Box zum Akzeptieren des Widerrufrechts und der <a href="#" role="button" class="card-link ml-0 border-bottom border-primary" data-toggle="modal" data-target="#TCModal">Allgemeinen Geschäftsbedingungen</a> sowie der <a href="#" role="button" class="card-link ml-0 border-bottom border-primary" data-toggle="modal" data-target="#PModal">Datenschutzerklärung</a>.'; 
+const ENTRY_MATC_TEXT = 'Klicken Sie auf die Box zum Akzeptieren des Widerrufrechts und der <a href="#" role="button" class="card-link ml-0 border-bottom border-primary" data-bs-toggle="modal" data-bs-target="#TCModal">Allgemeinen Geschäftsbedingungen</a> sowie der <a href="#" role="button" class="card-link ml-0 border-bottom border-primary" data-bs-toggle="modal" data-bs-target="#PModal">Datenschutzerklärung</a>.'; 
 
 // for the modal popup
 const MATC_BUTTON_CLOSE = 'Schließen';
