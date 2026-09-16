@@ -21,9 +21,6 @@
 
 	const TEXT_NO_EMAIL_ADDRESS_FOUND = 'Fehler: Diese E-Mail-Adresse ist nicht in unseren Daten vorhanden, bitte versuchen Sie es erneut.';
 
-	const EMAIL_PASSWORD_RESET_SUBJECT = STORE_NAME . ' - Neues Passwort';
-	const EMAIL_PASSWORD_RESET_BODY = 'Für Ihr Konto bei ' . STORE_NAME . ' wurde ein neues Passwort angefordert.' . "\n\n" . 'Bitte folgen Sie diesem persönlichen Link, um Ihr Passwort sicher zu ändern:' . "\n\n" . '%s' . "\n\n" . 'Dieser Link wird automatisch nach 24 Stunden oder nach Änderung Ihres Passworts ungültig.' . "\n\n" . 'Für Hilfe zu unseren Dienstleistungen schreiben Sie bitte an: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n";
-
 	const ERROR_ACTION_RECORDER = 'Fehler: Es wurde bereits ein Link zum Zurücksetzen des Passworts gesendet. Bitte versuchen Sie es erneut in %s Minuten.';
 
 	const IMAGE_BUTTON_RESET_PASSWORD = 'Mein Passwort zurücksetzen';

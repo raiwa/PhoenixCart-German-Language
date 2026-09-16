@@ -142,3 +142,10 @@ const GET_ADDONS = '<img alt="" src="images/icon_phoenix.png" class="me-2">Addon
 const ADDONS_FREE = 'Gratis';
 const ADDONS_COMMERCIAL = 'Kostenpflichtig';
 const ADDONS_PRO = 'PRO';
+
+// command palette
+const CP_AVAILABLE_VERBS = 'Verfügbare Befehle';
+const CP_VERB_SUBJECTS = 'Befehle: %s';
+const CP_VERB_SUBJECT_NOT_FOUND = 'Befehl nicht gefunden: %s %s';
+const CP_INCOMPLETE_COMMAND = 'Unvollständiger Befehl: %s';
+const CP_INVALID_COMMAND = 'Ungültiges Befehlsformat';
